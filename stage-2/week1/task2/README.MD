@@ -45,4 +45,6 @@ Task 2
 ![Screenshot from 2023-12-21 19-28-25](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/1f706301-a251-4b15-8f0a-b15958325b0e)
 ![Screenshot from 2023-12-21 19-33-03](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/982b8ee6-375c-4356-a8ea-c9a933d95cd7)
 ![Screenshot from 2023-12-21 19-34-04](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/e19c3ebc-467d-44d1-9ba1-559e1c5245a7)
+![photo_2023-12-23_09-09-31](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/1e7c5f1c-9de2-4522-9304-798709d2e6c3)
+![photo_2023-12-23_09-09-37](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/75b44bc5-d4a3-42fe-b6c1-f8d1d2258a7b)
 ![Screenshot from 2023-12-21 19-50-19](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/70b9a713-b2fd-41a4-ae81-ed8fcbcbee31)

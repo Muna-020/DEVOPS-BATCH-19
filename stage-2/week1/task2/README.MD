@@ -32,10 +32,10 @@ Task 2
 ![Screenshot from 2023-12-21 10-51-11](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/eb8bdec1-3660-48c5-803e-94a1737de2ec)
 ![Screenshot from 2023-12-21 10-53-49](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/e3cb1a9d-fca2-4cc7-88c9-c8777be01fb7)
 ![Screenshot from 2023-12-21 11-02-45](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/55801892-ad1e-4cfb-865d-912b0ff67ff8)
+![Screenshot from 2023-12-21 18-49-30](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/5720b8a0-b5c3-476d-930a-f9d85fcf16eb)
 ![Screenshot from 2023-12-21 19-44-10](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/4fbd6f40-5efb-4f8c-8f8b-1623404ce113)
 
 - Dan terakhir, Dokumentasi pembuatan domain pada frontend dan backend serta pembuatan certifcate untuk ssl pada domain:
-![Screenshot from 2023-12-21 18-49-30](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/5720b8a0-b5c3-476d-930a-f9d85fcf16eb)
 ![Screenshot from 2023-12-21 19-13-41](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/94c900f9-4b55-464f-b2c8-d9e55c2c3168)
 ![Screenshot from 2023-12-21 19-15-19](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/41577d88-9d80-4d17-9a2e-6d6deb06f4b9)
 ![Screenshot from 2023-12-21 19-20-31](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/7e8b0ba4-17d5-45f8-ab56-48e3177d579e)

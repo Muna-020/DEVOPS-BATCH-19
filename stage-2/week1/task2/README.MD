@@ -31,6 +31,7 @@
 ![Screenshot from 2023-12-21 10-53-30](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/280d252c-a49c-4237-a9f2-d878a28eacb2)
 ![Screenshot from 2023-12-21 10-53-49](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/e3cb1a9d-fca2-4cc7-88c9-c8777be01fb7)
 ![Screenshot from 2023-12-21 11-02-45](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/55801892-ad1e-4cfb-865d-912b0ff67ff8)
+![Screenshot from 2023-12-21 19-44-10](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/4fbd6f40-5efb-4f8c-8f8b-1623404ce113)
 
 -
 ![Screenshot from 2023-12-21 18-49-30](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/5720b8a0-b5c3-476d-930a-f9d85fcf16eb)
@@ -39,11 +40,8 @@
 ![Screenshot from 2023-12-21 19-20-31](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/7e8b0ba4-17d5-45f8-ab56-48e3177d579e)
 ![Screenshot from 2023-12-21 19-23-47](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/893bf5d8-7d39-460c-96be-3700a0d9f9fc)
 ![Screenshot from 2023-12-21 19-24-40](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/ec906b71-94f0-4c83-a7f9-3980b7408f75)
-![Screenshot from 2023-12-21 19-27-17](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/ed6c8423-3c1e-4f3e-a497-857768cbd422)
 ![Screenshot from 2023-12-21 19-27-49](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/e085b91f-505b-4ea7-9153-75a6ffba5f4d)
 ![Screenshot from 2023-12-21 19-28-25](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/1f706301-a251-4b15-8f0a-b15958325b0e)
 ![Screenshot from 2023-12-21 19-33-03](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/982b8ee6-375c-4356-a8ea-c9a933d95cd7)
 ![Screenshot from 2023-12-21 19-34-04](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/e19c3ebc-467d-44d1-9ba1-559e1c5245a7)
-![Screenshot from 2023-12-21 19-37-58](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/36bd5ba6-d992-4ae1-af12-b1a25c196bfc)
-![Screenshot from 2023-12-21 19-44-10](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/4fbd6f40-5efb-4f8c-8f8b-1623404ce113)
 ![Screenshot from 2023-12-21 19-50-19](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/70b9a713-b2fd-41a4-ae81-ed8fcbcbee31)

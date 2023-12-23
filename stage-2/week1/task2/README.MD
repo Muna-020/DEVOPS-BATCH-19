@@ -1,16 +1,22 @@
+Nama : Ahmad Munazar
+Kelas : DevOps Batch 19
+Task 2
+
+
+- Berikut Dokumentasi pembuatan server untuk VM di BiznetGio:
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/4255d17f-7895-49f2-9984-45daefb5fdca?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/5f173bc3-f08d-4f0b-b7a0-a6231f16ba4e?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/af813ff7-2bf7-4364-80ad-33e0747c10df?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/cff6ff7e-20f5-409c-988d-6054e8746479?raw=true)
 
--
+- Selanjuntnya, Dokumentasi pembuatan user baru dan melakukan implementasi ssh config pada server:
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/dfabc4ef-0cbc-415c-bc09-75a7afbc0845?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/ea9a7075-7062-4d9c-badb-f2a09383cd6e?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/48a121aa-342e-4281-ac7d-34ed149475f8?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/ee217b2e-eb50-4714-9a0b-bd76e5ad6437?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/d62dc6d9-005b-4de7-8c46-b8979a481d97?raw=true)
 
--
+- Selanjutnya, Dokumentasi penggunan database mysql pada server appserver1 :
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/6e235856-6f74-45d3-860d-74a465aadf21?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/f4aa20c8-0055-41db-be9f-bad6b15faf55?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/65209687-c9e3-4656-bce7-a36516205843?raw=true)
@@ -19,7 +25,7 @@
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/8231a185-0b6c-44a5-ae59-d17e34121ef1?raw=true)
 ![Screenshot from 2023-12-21 10-22-37](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/9aff0cfc-9f17-4c86-817e-3c034b7d8959)
 
--
+- Kemudian, Dokumentasi untuk Deploy aplikasi backend serta migrasi ke database mysql dan konfigurasi api di frontend pada server gatewaynginx:
 ![Screenshot from 2023-12-21 10-41-16](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/f0e2ee4b-04fb-45ed-b834-ddee216db68e)
 ![Screenshot from 2023-12-21 10-46-36](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/62a397ff-96ff-4e41-a0cc-28f9a7f0b88e)
 ![Screenshot from 2023-12-21 10-49-43](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/a6af80c4-9c03-4071-90a8-64b1b4c4742c)
@@ -28,7 +34,7 @@
 ![Screenshot from 2023-12-21 11-02-45](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/55801892-ad1e-4cfb-865d-912b0ff67ff8)
 ![Screenshot from 2023-12-21 19-44-10](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/4fbd6f40-5efb-4f8c-8f8b-1623404ce113)
 
--
+- Dan terakhir, Dokumentasi pembuatan domain pada frontend dan backend serta pembuatan certifcate untuk ssl pada domain:
 ![Screenshot from 2023-12-21 18-49-30](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/5720b8a0-b5c3-476d-930a-f9d85fcf16eb)
 ![Screenshot from 2023-12-21 19-13-41](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/94c900f9-4b55-464f-b2c8-d9e55c2c3168)
 ![Screenshot from 2023-12-21 19-15-19](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/41577d88-9d80-4d17-9a2e-6d6deb06f4b9)

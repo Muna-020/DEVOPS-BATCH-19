@@ -32,4 +32,4 @@ Task 1
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/62e1d5a7-6b49-4e11-9ab6-80c63345b33e?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/42d15a10-eff3-4259-b30d-ed835f8e893a?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/d1dcb27c-dc4e-4b0e-906b-8880c8a4e817?raw=true)
-![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/840e8ba9-1c4d-4ba5-8485-557e6dcb03b0)?raw=true)
+![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/840e8ba9-1c4d-4ba5-8485-557e6dcb03b0?raw=true)

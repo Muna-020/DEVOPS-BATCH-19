@@ -14,10 +14,6 @@ Task 1
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/4a2a862f-601b-4ee8-bbd4-6cafda0797ad?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/4d005e88-123c-46a6-bf72-49ad18c60cbb?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/a95f8bc1-1489-46f9-9c2d-21245c07de18?raw=true)
-![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/3b75385c-fab5-44df-930b-5564c8674e59?raw=true)
-![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/9e634b65-01e4-401c-b5c5-3ccb996e1df8?raw=true)
-![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/287cb1c5-9b44-47c0-9877-7aa13eaccbdd?raw=true)
-![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/e3cfba58-952f-4c57-b4cb-02cd252fc733?raw=true)
 
 - Kemudian, Dokumentasi Clone Repository wayshub-frontend dan melakukan deploy aplikasi menggunakan PM2:
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/929fc530-3618-4e3b-929d-cab07264d103?raw=true)

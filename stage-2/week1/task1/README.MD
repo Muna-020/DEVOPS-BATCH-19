@@ -7,7 +7,7 @@ Task 1
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/838acba0-9764-416d-a3e9-f6b6a2db38d3?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/b482d525-92ac-4d67-a867-58be63253811?raw=true)
 
-- Selanjutnya, Dokumentasi penggunaan server dan pembuatan user baru untuk implementasi ssh-key:
+- Selanjutnya, Dokumentasi penggunaan server dan implementasi ssh-key:
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/0a79923a-d092-452d-a75a-708d7be86845?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/4a2a862f-601b-4ee8-bbd4-6cafda0797ad?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/4d005e88-123c-46a6-bf72-49ad18c60cbb?raw=true)

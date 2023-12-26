@@ -18,7 +18,7 @@ Task 1
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/f1cbbabe-bd54-4023-96d0-0f929efd0b46?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/783f9037-5625-4078-9f21-76016d666ce0?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/7ffe4588-f6bf-4c13-977b-54d9810c5fc7?raw=true)
-![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/1158ec4e-2e81-459f-9c10-ad5c50e1f0cc?raw=true)
+
 
 - Dan terakhir, melakukan konfigurasi reverse proxy serta implementasi penggunaan domain melalui cloudflare:
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/7c0778a3-8d01-4fbe-a903-42c3ac98d9da?raw=true)

@@ -12,7 +12,7 @@ Task 2
 - Selanjuntnya, Dokumentasi implementasi ssh config untuk koneksi antar server local dan vm:
 ![Screenshot from 2023-12-26 10-49-16](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/ed9e17d7-4f57-454b-ad0b-dd9d238a9f55)
 ![Screenshot from 2023-12-26 10-35-35](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/83b97112-4bd8-47dc-81a6-886f04b7c516)
-![Screenshot from 2023-12-26 10-35-46](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/766ed942-bf60-4f17-866d-452a87ac604c
+![Screenshot from 2023-12-26 10-35-46](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/766ed942-bf60-4f17-866d-452a87ac604c)
 
 - Selanjutnya, Dokumentasi penggunan database mysql pada server appserver1 :
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/6e235856-6f74-45d3-860d-74a465aadf21?raw=true)

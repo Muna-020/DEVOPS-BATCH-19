@@ -7,7 +7,7 @@ Task 2
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/4255d17f-7895-49f2-9984-45daefb5fdca?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/5f173bc3-f08d-4f0b-b7a0-a6231f16ba4e?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/af813ff7-2bf7-4364-80ad-33e0747c10df?raw=true)
-![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/cff6ff7e-20f5-409c-988d-6054e8746479?raw=true)
+
 
 - Selanjuntnya, Dokumentasi implementasi ssh config untuk koneksi antar server local dan vm:
 ![Screenshot from 2023-12-26 10-49-16](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/ed9e17d7-4f57-454b-ad0b-dd9d238a9f55)

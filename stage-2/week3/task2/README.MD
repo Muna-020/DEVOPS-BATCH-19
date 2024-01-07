@@ -9,7 +9,7 @@
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/87039370-4e74-4494-8eca-f8567b3f0efc)
 
 
-# Pembuatan Repository untuk menyimpan data Aolikasi Backend dan Frontend di gitlab 
+# Pembuatan Repository untuk menyimpan data Aplikasi Backend dan Frontend di gitlab 
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/0c1f5089-54ea-4015-b4bb-9191f032871e)
 
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/f573ff26-3097-4991-a9d6-33ef2730d7d1)

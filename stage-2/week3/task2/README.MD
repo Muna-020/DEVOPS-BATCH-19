@@ -1,5 +1,5 @@
 # GitlabCI
-
+# Pembuatan akun Gitlab CI dan melakukan Setup ssh key untuk Gitlab CI
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/a36814be-40c6-4ef2-b4f8-7028085de3fb)
 
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/71738897-c288-443b-83c4-916590dcf5da)
@@ -8,6 +8,8 @@
 
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/87039370-4e74-4494-8eca-f8567b3f0efc)
 
+
+# Pembuatan Repository untuk menyimpan data Aolikasi Backend dan Frontend di gitlab 
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/0c1f5089-54ea-4015-b4bb-9191f032871e)
 
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/f573ff26-3097-4991-a9d6-33ef2730d7d1)
@@ -24,6 +26,8 @@
 
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/58b66d30-380e-4d0c-832a-950bb0b3881b)
 
+
+# Pembuatan file .gitlab-ci.yml dalam melakukan CI/CD pada aplikasi dumbflix untuk Backend dan Frontend
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/c07dfbe0-75f5-45e6-a49b-53504ca13aa7)
 
 ![Screenshot (28)](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/7b14feec-46f2-4717-85eb-760db46d2032)

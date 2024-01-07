@@ -9,6 +9,8 @@
 
 ![photo_6107268411026423925_y](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/40daca90-5cc1-4950-a4a3-545e363404c4)
 
+
+# Pembuatan Jenkinsfile dengan metode Pipeline with SCM dalam menjalankan CI/CD
 ![photo_6107268411026423920_y](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/e918004a-bf33-4122-bdbb-0d4397ebb3c9)
 
 ![photo_6107268411026423921_y](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/d690db03-ffcf-4c76-9e2c-5f684fcf6e46)

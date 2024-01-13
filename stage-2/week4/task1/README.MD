@@ -5,4 +5,6 @@
 
 ## Membuat Dashboard monitoring menggunakan grafana
 
+## Notifikasi Alerting di discord adanya penggunaan CPU dan RAM berlebihan pada Server App-server  
+
 

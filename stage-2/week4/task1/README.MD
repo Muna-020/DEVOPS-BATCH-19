@@ -13,7 +13,7 @@
 #### 3. mengakses seluruh node-exporter, grafana, prometheus dengan domain dari reverse proxy
 ![Screenshot from 2024-01-13 15-17-43](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/4b0b12bf-6794-4a49-93f6-d22370744d99)
 ![Screenshot from 2024-01-13 15-17-47](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/499ea75a-9b5b-47ed-a222-8b659843b5dc)
-![Screenshot from 2024-01-13 15-17-55](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/27210b45-e8c1-405a-b72f-039c928a38e8)
+![Screenshot from 2024-01-13 15-17-50](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/aecead38-722b-4947-a541-00b7e5933fe7)
 ![Screenshot from 2024-01-13 15-17-55](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/35ea798d-5941-47e8-8cd1-b2a51216af69)
 #
 #### 4. Membuat Dashboard monitoring menggunakan grafana

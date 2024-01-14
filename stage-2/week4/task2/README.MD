@@ -6,10 +6,10 @@
 ### Membuat Script dengan ansible untuk automation user baru, install docker, instalasi monitoring server, setup reverse proxy, deploy app-frontend dengan docker
 
 #### 1. Membuat User baru untuk server gateway dan app-server
-      ![Screenshot from 2024-01-13 15-28-58](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/7be78364-2316-4ef1-bafa-c8cf421110f9)
+![Screenshot from 2024-01-13 15-28-58](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/7be78364-2316-4ef1-bafa-c8cf421110f9)
 
 #### 2. Melakukan instalasi docker untuk kedua server
-      ![Screenshot from 2024-01-14 11-47-23](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/fb292764-cc91-4e97-af02-1a4a90b00b24)
+![Screenshot from 2024-01-14 11-47-23](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/fb292764-cc91-4e97-af02-1a4a90b00b24)
 
 #### melakukan generate SSL untuk kedua server menggunakan Certbot Let's Encrypt
 ![Screenshot from 2024-01-14 12-08-12](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/7869f3ed-1b3e-42e8-90f7-08058130f300)

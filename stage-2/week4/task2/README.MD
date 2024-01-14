@@ -15,7 +15,7 @@
 ![Screenshot from 2024-01-14 12-08-12](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/7869f3ed-1b3e-42e8-90f7-08058130f300)
 ![Screenshot from 2024-01-14 12-08-56](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/9cfdee7c-8e01-4d9d-a3d1-66e083dee064)
 
-#### 4. melakukan konfigurasi reverse proxy untuk persiapan container monitoring di server gateway
+#### 4. membuat konfigurasi reverse proxy untuk persiapan container monitoring di server gateway
 ![Screenshot from 2024-01-14 12-31-51](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/fa7719d8-b590-484e-8991-6bb27745a6b9)
 ![Screenshot from 2024-01-14 12-44-46](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/154014a6-861f-446f-9886-b9d4e3238830)
 
@@ -29,11 +29,11 @@
 ![Screenshot from 2024-01-14 12-43-34](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/fd31ddda-37ca-4295-9cb3-b885b1c970b2)
 ![Screenshot from 2024-01-14 12-40-44](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/f6534b21-48be-400f-9c4c-87a46081a16a)
 
-#### 7. melakukan konfigurasi reverse proxy untuk persiapan container aplikasi frontend di server app-server
+#### 7. membuat konfigurasi reverse proxy untuk persiapan container aplikasi frontend di server app-server
 ![Screenshot from 2024-01-14 12-48-15](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/8047f49b-3f00-4473-bf37-69f7f9349f77)
 ![Screenshot from 2024-01-14 12-44-51](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/e9482222-c778-41df-8c67-110d8ac5f345)
 
 #### 8.  melakukan setup container untuk deploy aplikasi frontend di app-server 
-![Screenshot from 2024-01-14 12-48-15](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/8047f49b-3f00-4473-bf37-69f7f9349f77)
-![Screenshot from 2024-01-14 12-44-51](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/e9482222-c778-41df-8c67-110d8ac5f345)
+![Screenshot from 2024-01-14 12-54-24](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/6047aaac-6ad3-4f17-9795-365448c90208)
+![Screenshot from 2024-01-14 12-55-12](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/6e3a66c5-3d6d-48cd-8c10-47479fce62e1)
 

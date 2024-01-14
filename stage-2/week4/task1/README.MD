@@ -9,9 +9,8 @@
 #
 ![Screenshot from 2024-01-14 14-27-05](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/30e30892-e8f3-4467-9ad4-9f7a4ca52a70)
 ![Screenshot from 2024-01-14 14-27-32](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/b5e6aa7c-ba46-4aa4-825d-e173df73b8e2)
-#
-![Screenshot from 2024-01-14 14-27-05](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/30e30892-e8f3-4467-9ad4-9f7a4ca52a70)
-![Screenshot from 2024-01-14 14-27-32](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/b5e6aa7c-ba46-4aa4-825d-e173df73b8e2)
+
+#### mengakses seluruh node-exporter, grafana, prometheus dengan domain dari reverse proxy
 ![Screenshot from 2024-01-13 15-17-43](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/4b0b12bf-6794-4a49-93f6-d22370744d99)
 ![Screenshot from 2024-01-13 15-17-55](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/35ea798d-5941-47e8-8cd1-b2a51216af69)
 

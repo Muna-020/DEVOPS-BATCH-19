@@ -31,6 +31,6 @@
 ![Screenshot from 2024-01-14 12-44-51](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/e9482222-c778-41df-8c67-110d8ac5f345)
 
 #### 8.  melakukan setup container untuk deploy aplikasi frontend di app-server 
-![Screenshot from 2024-01-14 12-54-24](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/6047aaac-6ad3-4f17-9795-365448c90208)
 ![Screenshot from 2024-01-14 12-55-12](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/6e3a66c5-3d6d-48cd-8c10-47479fce62e1)
+![Screenshot from 2024-01-14 12-54-24](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/6047aaac-6ad3-4f17-9795-365448c90208)
 

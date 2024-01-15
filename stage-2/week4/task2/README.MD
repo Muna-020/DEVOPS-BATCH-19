@@ -34,3 +34,33 @@
 ![Screenshot from 2024-01-14 12-55-12](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/6e3a66c5-3d6d-48cd-8c10-47479fce62e1)
 ![Screenshot from 2024-01-14 12-54-24](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/6047aaac-6ad3-4f17-9795-365448c90208)
 
+```yaml
+- hosts: biznet
+  become: yes
+
+  tasks:
+    - name: Create user 'ahmad'
+      user:
+        name: ahmad
+        password: "{{ 'ahmad123' | password_hash('sha512') }}"
+        shell: /bin/bash
+        groups: sudo
+        state: present
+        system: true
+        createhome: yes
+        
+    - name: Setup sshd_config
+      lineinfile:
+        path: /etc/ssh/sshd_config
+        regexp: '^#?PasswordAuthentication'
+        line: 'PasswordAuthentication yes'
+        backup: yes
+      notify: Restart SSH Service
+
+  handlers:
+    - name: Restart SSH Service
+      service:
+        name: sshd
+        state: restarted   
+```
+

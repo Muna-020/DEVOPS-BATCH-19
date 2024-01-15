@@ -20,7 +20,7 @@
 #### 4. Membuat Dashboard monitoring menggunakan grafana
 #
 ![Screenshot from 2024-01-15 09-29-29](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/4d55af50-12ec-4e81-9f72-a0ef72eb04dd)
-![Screenshot from 2024-01-15 09-29-22](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/01e29daf-5da8-4ab5-ad25-8c0f24fbb37c)
+![Screenshot from 2024-01-15 09-30-52](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/30bf4b71-37fc-4634-a7e8-3cfe7e215856)
 #
 
 #### 5. Notifikasi Alerting di discord adanya penggunaan CPU dan RAM berlebihan pada Server App-server  

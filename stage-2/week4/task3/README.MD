@@ -1,7 +1,16 @@
 # Kubernetes k3s 
+```
+Kubernetes adalah platform orkestrasi kontainer open-source yang dikembangkan oleh Google. Ini memungkinkan pengelolaan dan otomatisasi aplikasi yang dikemas dalam kontainer. sedangkan Kubernetes k3s merupakan Kubernetes yang dikembangkan oleh Rancher Labs. dengan pengalaman Kubernetes yang lebih ringan dan sederhana.
 
-### Membuat Script dengan ansible untuk automation user baru, install docker, instalasi monitoring server, setup reverse proxy, deploy app-frontend dengan docker
+Tahap ringkas dalam pengunaan k3s:
+1. install k3s untuk membuat cluster dengan 2 node sebagai master dan worker
+2. instalasi ingress untuk nginx 
+3. deploy aplikasi nginx dengan menggunakan ingress untuk dijalankan pada web server
+4. setup untuk membuat persistent volume claim pada konfigurasi k3s
+5. deploy aplikasi database dengan mongodb menggunakan statefulset dan implementasi penggunaan PVC
+6. pembuatan database pada mongodb serta mengisi dummy data di dalamnya 
 
+```
 #### Installation ingress nginx
 
 ```shell

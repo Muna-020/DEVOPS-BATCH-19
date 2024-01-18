@@ -42,6 +42,12 @@ spec:
       service:
         type: LoadBalancer
 ```
+```shell
+$ kubectl get ingressclasses 
+NAME    CONTROLLER             PARAMETERS   AGE
+nginx   k8s.io/ingress-nginx   <none>       19h
+
+```
 #### Deploy nginx app with used ingress nginx
 ```yaml
 

@@ -122,7 +122,7 @@ NAME                                   DESIRED   CURRENT   READY   AGE
 replicaset.apps/nginx-app-64dd5dc9db   1         1         1       7h32m
 
 ```
-![Screenshot from 2024-01-18 22-50-51](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/0b9d95e6-30b2-4e23-b2be-8d7b57ee83f0
+![Screenshot from 2024-01-18 22-50-51](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/0b9d95e6-30b2-4e23-b2be-8d7b57ee83f0)
 
 #### Make PVC with default local path
 ```yaml

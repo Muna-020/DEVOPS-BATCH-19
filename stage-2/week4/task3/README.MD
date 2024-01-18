@@ -179,9 +179,9 @@ metadata:
   name: mongodb-secret
 type: Opaque
 data:
-  MONGO_INITDB_ROOT_USERNAME: YWhtYWQ=
-  MONGO_INITDB_ROOT_PASSWORD: YWhtYWQxMjM=
-  MONGO_INITDB_DATABASE: YXBwZGI=
+  MONGO_INITDB_ROOT_USERNAME: YWhtYWQ=   # ahmad
+  MONGO_INITDB_ROOT_PASSWORD: YWhtYWQxMjM=   # ahmad123
+  MONGO_INITDB_DATABASE: YXBwZGI=   # appdb
 
 ---
 
@@ -231,7 +231,7 @@ spec:
       targetPort: 27017
   
 ```
-
+#### 
 ```shell
 
 $ /mnt/disk1/pvc-1757bf74-513f-4a6b-93d6-67b509e5e70f_devops_local-path-pvc# ls
@@ -245,6 +245,7 @@ ahmad              collection-7--5415748615189943430.wt  index-5--84407675509837
 
 
 ```
+#### access to mongodb 
 ```mongo
 
 root@mongodb-0:/# mongo -u ahmad -p ahmad123 --authenticationDatabase admin

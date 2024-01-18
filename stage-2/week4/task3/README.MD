@@ -2,7 +2,7 @@
 
 ### Membuat Script dengan ansible untuk automation user baru, install docker, instalasi monitoring server, setup reverse proxy, deploy app-frontend dengan docker
 
-#### Instalasi ingress nginx
+#### Installation ingress nginx
 
 ```shell
 /var/lib/rancher/k3s/server/manifests# ls
@@ -33,7 +33,7 @@ spec:
       service:
         type: LoadBalancer
 ```
-#### - Deploy nginx app dengan ingress nginx
+#### - Deploy nginx app with used ingress nginx
 ```yaml
 
 apiVersion: apps/v1

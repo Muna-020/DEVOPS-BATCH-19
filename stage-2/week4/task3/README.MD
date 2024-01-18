@@ -234,45 +234,4 @@ spec:
 
 ```
 
-#### 6. melakukan persiapan untuk aplikasi froontend di server app-server
-![Screenshot from 2024-01-14 12-43-34](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/fd31ddda-37ca-4295-9cb3-b885b1c970b2)
-![Screenshot from 2024-01-14 12-40-44](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/f6534b21-48be-400f-9c4c-87a46081a16a)
-
-#### 7. membuat konfigurasi reverse proxy untuk persiapan container aplikasi frontend di server app-server
-![Screenshot from 2024-01-14 12-48-15](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/8047f49b-3f00-4473-bf37-69f7f9349f77)
-![Screenshot from 2024-01-14 12-44-51](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/e9482222-c778-41df-8c67-110d8ac5f345)
-
-#### 8.  melakukan setup container untuk deploy aplikasi frontend di app-server 
-![Screenshot from 2024-01-14 12-55-12](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/6e3a66c5-3d6d-48cd-8c10-47479fce62e1)
-![Screenshot from 2024-01-14 12-54-24](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/6047aaac-6ad3-4f17-9795-365448c90208)
-
-```yaml
-- hosts: biznet
-  become: yes
-
-  tasks:
-    - name: Create user 'ahmad'
-      user:
-        name: ahmad
-        password: "{{ 'ahmad123' | password_hash('sha512') }}"
-        shell: /bin/bash
-        groups: sudo
-        state: present
-        system: true
-        createhome: yes
-        
-    - name: Setup sshd_config
-      lineinfile:
-        path: /etc/ssh/sshd_config
-        regexp: '^#?PasswordAuthentication'
-        line: 'PasswordAuthentication yes'
-        backup: yes
-      notify: Restart SSH Service
-
-  handlers:
-    - name: Restart SSH Service
-      service:
-        name: sshd
-        state: restarted   
-```
 

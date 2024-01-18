@@ -2,7 +2,12 @@
 
 ### Membuat Script dengan ansible untuk automation user baru, install docker, instalasi monitoring server, setup reverse proxy, deploy app-frontend dengan docker
 
-#### -
+#### Instalasi ingress nginx
+
+```shell
+/var/lib/rancher/k3s/server/manifests# ls
+ccm.yaml  coredns.yaml  local-storage.yaml  metrics-server  nginx-ingress.yaml  rolebindings.yaml  runtimes.yaml
+```
 ```yaml
 
 apiVersion: v1
@@ -28,7 +33,7 @@ spec:
       service:
         type: LoadBalancer
 ```
-#### 2. Melakukan instalasi docker untuk kedua server
+#### - Deploy nginx app dengan ingress nginx
 ```yaml
 
 apiVersion: apps/v1
@@ -97,7 +102,6 @@ spec:
 $ ~/.kube$ kubectl get all -n devops
 NAME                             READY   STATUS    RESTARTS   AGE
 pod/nginx-app-64dd5dc9db-x46cw   1/1     Running   0          7h32m
-pod/test-volume                  1/1     Running   0          5h54m
 
 NAME                        TYPE       CLUSTER-IP      EXTERNAL-IP   PORT(S)           AGE
 service/nginx-app-service   NodePort   10.43.243.200   <none>        80:31217/TCP      7h32m
@@ -109,7 +113,7 @@ NAME                                   DESIRED   CURRENT   READY   AGE
 replicaset.apps/nginx-app-64dd5dc9db   1         1         1       7h32m
 
 ```
-#### 3. melakukan generate SSL untuk kedua server menggunakan Certbot Let's Encrypt
+#### Make PVC with default local path
 ```yaml
 
 apiVersion: v1
@@ -133,7 +137,7 @@ NAME             STATUS   VOLUME                                     CAPACITY   
 local-path-pvc   Bound    pvc-1757bf74-513f-4a6b-93d6-67b509e5e70f   2Gi        RWO            local-path     7h13m
 
 ```
-#### Script implementasi PVC
+#### Script for bounding PVC
 
 ```yaml
 
@@ -159,11 +163,76 @@ spec:
 
 ```
 
-####  5. melakukan setup pembuatan container untuk monitoring server di gateway 
-![Screenshot from 2024-01-14 12-23-53](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/b762d5ea-a597-4676-9b3d-4a23871249e5)
-![Screenshot from 2024-01-14 12-24-03](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/e3e885f5-af9f-4ce7-9a1d-00e82a47d495)
-![Screenshot from 2024-01-14 12-24-27](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/3d29fec6-b996-42ef-a674-43ab6c2d3a20)
-![Screenshot from 2024-01-14 12-23-29](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/79baca03-01d7-4189-9cbe-f10f32a76978)
+```shell
+$ ~/.kube$ kubectl get pods -n devops
+NAME                             READY   STATUS    RESTARTS   AGE
+pod/nginx-app-64dd5dc9db-x46cw   1/1     Running   0          7h32m
+pod/test-volume                  1/1     Running   0          5h54m
+
+```
+
+####  Deploy mongodb app use stateful.set and PVC
+```yaml
+apiVersion: v1
+kind: Secret
+metadata:
+  name: mongodb-secret
+type: Opaque
+data:
+  MONGO_INITDB_ROOT_USERNAME: YWhtYWQ=
+  MONGO_INITDB_ROOT_PASSWORD: YWhtYWQxMjM=
+  MONGO_INITDB_DATABASE: YXBwZGI=
+
+---
+
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: mongodb
+spec:
+  serviceName: "mongodb"
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mongodb
+  template:
+    metadata:
+      labels:
+        app: mongodb
+    spec:
+      containers:
+        - name: mongodb
+          image: mongo:4.4
+          envFrom:
+             - secretRef:
+                 name: mongodb-secret
+                 optional: false
+          volumeMounts:
+            - name: mongodb-storage
+              mountPath: /data/db
+      volumes:
+      - name: mongodb-storage
+        persistentVolumeClaim:
+          claimName: local-path-pvc
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: mongodb
+spec:
+  selector:
+    app: mongodb
+  type: NodePort
+  ports:
+    - name: port
+      port: 27017
+      targetPort: 27017
+  
+
+
+```
 
 #### 6. melakukan persiapan untuk aplikasi froontend di server app-server
 ![Screenshot from 2024-01-14 12-43-34](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/fd31ddda-37ca-4295-9cb3-b885b1c970b2)

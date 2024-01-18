@@ -245,5 +245,25 @@ ahmad              collection-7--5415748615189943430.wt  index-5--84407675509837
 
 
 ```
+```mongo
+
+root@mongodb-0:/# mongo -u ahmad -p ahmad123 --authenticationDatabase admin
+MongoDB shell version v4.4.27
+connecting to: mongodb://127.0.0.1:27017/?authSource=admin&compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("df54ed42-e98b-4c22-af5a-f155059d27a8") }
+MongoDB server version: 4.4.27
+---
+The server generated these startup warnings when booting: 
+        2024-01-18T10:02:14.763+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+---
+> use appdb
+switched to db appdb
+> show dbs
+admin   0.000GB
+appdb   0.000GB
+config  0.000GB
+local   0.000GB
+
+```
 
 

@@ -230,6 +230,18 @@ spec:
       port: 27017
       targetPort: 27017
   
+```
+
+```shell
+
+$ /mnt/disk1/pvc-1757bf74-513f-4a6b-93d6-67b509e5e70f_devops_local-path-pvc# ls
+WiredTiger         collection-0--5415748615189943430.wt  diagnostic.data                  index-6--5415748615189943430.wt
+WiredTiger.lock    collection-0--844076755098378161.wt   index-1--5415748615189943430.wt  index-8--5415748615189943430.wt
+WiredTiger.turtle  collection-2--5415748615189943430.wt  index-1--844076755098378161.wt   index-9--5415748615189943430.wt
+WiredTiger.wt      collection-2--844076755098378161.wt   index-3--5415748615189943430.wt  journal
+WiredTigerHS.wt    collection-4--5415748615189943430.wt  index-3--844076755098378161.wt   mongod.lock
+_mdb_catalog.wt    collection-4--844076755098378161.wt   index-5--5415748615189943430.wt  sizeStorer.wt
+ahmad              collection-7--5415748615189943430.wt  index-5--844076755098378161.wt   storage.bson
 
 
 ```

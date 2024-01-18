@@ -25,7 +25,7 @@ metadata:
   name: nginx-ingress
 
 ---
- 
+
 apiVersion: helm.cattle.io/v1
 kind: HelmChart
 metadata:

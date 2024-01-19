@@ -4,7 +4,7 @@ Kubernetes adalah platform orkestrasi kontainer open-source yang dikembangkan ol
 sedangkan Kubernetes k3s merupakan Kubernetes yang dikembangkan oleh Rancher Labs. dengan pengalaman Kubernetes yang lebih ringan dan sederhana.
 
 Tahap ringkas dalam pengunaan k3s:
-1. install k3s untuk membuat cluster dengan 2 node sebagai master dan worker
+1. install k3s untuk membuat cluster dengan 2 node sebagai master dan node-1
 2. instalasi ingress untuk nginx 
 3. deploy aplikasi nginx dengan menggunakan ingress untuk dijalankan pada web server
 4. setup untuk membuat persistent volume claim pada konfigurasi k3s

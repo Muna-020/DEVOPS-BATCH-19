@@ -147,13 +147,6 @@ spec:
     - ReadWriteOnce
 
 ```
-```shell
-
-$ kubectl get pvc 
-NAME             STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   AGE
-local-path-pvc   Bound    pvc-1757bf74-513f-4a6b-93d6-67b509e5e70f   2Gi        RWO            local-path     7h13m
-
-```
 #### Script for bounding PVC
 
 ```yaml
@@ -179,7 +172,13 @@ spec:
       claimName: local-path-pvc
 
 ```
+```shell
 
+$ kubectl get pvc 
+NAME             STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   AGE
+local-path-pvc   Bound    pvc-1757bf74-513f-4a6b-93d6-67b509e5e70f   2Gi        RWO            local-path     7h13m
+
+```
 ```shell
 $ ~/.kube$ kubectl get pods -n devops
 NAME                             READY   STATUS    RESTARTS   AGE

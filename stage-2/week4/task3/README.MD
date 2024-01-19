@@ -19,6 +19,7 @@ Tahap ringkas dalam pengunaan k3s:
 ccm.yaml  coredns.yaml  local-storage.yaml  metrics-server  nginx-ingress.yaml  rolebindings.yaml  runtimes.yaml
 ```
 ```yaml
+# nginx-ingress.yaml
 
 apiVersion: v1
 kind: Namespace
@@ -51,7 +52,7 @@ nginx   k8s.io/ingress-nginx   <none>       19h
 ```
 #### Deploy nginx app with used ingress nginx
 ```yaml
-
+# nginx.yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -133,7 +134,7 @@ replicaset.apps/nginx-app-64dd5dc9db   1         1         1       7h32m
 
 #### Make PVC with default local path
 ```yaml
-
+ # pvc.yaml
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
@@ -151,7 +152,7 @@ spec:
 #### Script for bounding PVC
 
 ```yaml
-
+# pod.yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -190,6 +191,7 @@ pod/test-volume                  1/1     Running   0          5h54m
 
 ####  Deploy mongodb app use stateful.set and PVC
 ```yaml
+# mongodb.yaml
 apiVersion: v1
 kind: Secret
 metadata:

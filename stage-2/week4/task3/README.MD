@@ -267,7 +267,7 @@ ahmad              collection-7--5415748615189943430.wt  index-5--84407675509837
 #### access to mongodb 
 ```mongo
 
-root@mongodb-0:/# mongo -u ahmad -p ahmad123 --authenticationDatabase admin
+root@mongodb-0:/# mongo -u ahmad -p ahmad123 
 MongoDB shell version v4.4.27
 connecting to: mongodb://127.0.0.1:27017/?authSource=admin&compressors=disabled&gssapiServiceName=mongodb
 Implicit session: session { "id" : UUID("df54ed42-e98b-4c22-af5a-f155059d27a8") }

@@ -1,6 +1,7 @@
 # Kubernetes k3s 
 ```
-Kubernetes adalah platform orkestrasi kontainer open-source yang dikembangkan oleh Google. Ini memungkinkan pengelolaan dan otomatisasi aplikasi yang dikemas dalam kontainer. sedangkan Kubernetes k3s merupakan Kubernetes yang dikembangkan oleh Rancher Labs. dengan pengalaman Kubernetes yang lebih ringan dan sederhana.
+Kubernetes adalah platform orkestrasi kontainer open-source yang dikembangkan oleh Google. Ini memungkinkan pengelolaan dan otomatisasi aplikasi yang dikemas dalam kontainer. 
+sedangkan Kubernetes k3s merupakan Kubernetes yang dikembangkan oleh Rancher Labs. dengan pengalaman Kubernetes yang lebih ringan dan sederhana.
 
 Tahap ringkas dalam pengunaan k3s:
 1. install k3s untuk membuat cluster dengan 2 node sebagai master dan worker

@@ -50,4 +50,11 @@ Adapun ringkasan tahap-tahap dalam pembuatan server ubuntu:
 ```
 berikut gambaran hasil pembuatan ubuntu server:
 
-https://github.com/sinambela99/DEVOPS-BATCH-19/blob/master/Screenshoots%20Day%201/pilih%20done%20juga.png?raw=true
+![alt text](https://github.com/sinambela99/DEVOPS-BATCH-19/blob/master/Screenshoots%20Day%201/pilih%20done%20juga.png?raw=true)
+![alt text](https://github.com/sinambela99/DEVOPS-BATCH-19/blob/master/Screenshoots%20Day%201/pilih%20ens33%20untuk%20ubah%20menjadi%20static.png?raw=true)
+![alt text](https://github.com/sinambela99/DEVOPS-BATCH-19/blob/master/Screenshoots%20Day%201/settingan%20untuk%20ipv4%20manual.png?raw=true)
+![alt text](https://github.com/sinambela99/DEVOPS-BATCH-19/blob/master/Screenshoots%20Day%201/skiip%20saja.png?raw=true)
+![alt text](https://github.com/sinambela99/DEVOPS-BATCH-19/blob/master/Screenshoots%20Day%201/memory%20utama.png?raw=true)
+![alt text](https://github.com/sinambela99/DEVOPS-BATCH-19/blob/master/Screenshoots%20Day%201/atur%20nama%20sesuai%20keinginan.png?raw=true)
+![alt text](https://github.com/sinambela99/DEVOPS-BATCH-19/blob/master/Screenshoots%20Day%201/tunggu%20prosesnya%20sampai%20selesai.png?raw=true)
+![alt text](https://github.com/sinambela99/DEVOPS-BATCH-19/blob/master/Screenshoots%20Day%201/testing%20internet%20pada%20server.png?raw=true)

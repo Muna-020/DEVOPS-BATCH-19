@@ -17,8 +17,6 @@ Pekerjaan seorang DevOps merupakan pekerjaan terus-menerus dengan alur dan fungs
 - Pengujian (Testing):
   Tim QA (Quality Assurance) dapat melakukan pengujian unit, integrasi, dan fungsionalitas perangkat lunak. 
   Otomatisasi pengujian juga dapat digunakan untuk mempercepat proses ini.
-```
-```
 - Integrasi (Integration):
   Proses integrasi berlangsung secara terus-menerus, menggabungkan perubahan kode dari pengembang ke dalam lingkungan pengujian
   untuk memastikan bahwa fitur baru atau perbaikan tidak merusak fungsionalitas yang ada.

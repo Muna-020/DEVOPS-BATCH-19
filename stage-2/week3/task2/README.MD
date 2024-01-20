@@ -1,4 +1,20 @@
 # GitlabCI
+
+
+```
+GitLab CI (Continuous Integration) adalah bagian dari platform GitLab yang menyediakan layanan otomatisasi CI/CD terintegrasi
+langsung ke dalam sistem manajemen repositori GitLab. GitLab CI memungkinkan tim pengembang untuk mengotomatiskan proses pengujian,
+pembangunan, dan penyebaran perangkat lunak secara terus-menerus.
+
+ringkasan tahapan pengerjaan untuk Gitlab CI:
+- melakukan pembuatan akun pada GItlab
+- menyimpan publickey ke gitlab untuk koneksikan gitlba dengan server local
+- membuat sebuah repository untuk menyimpan seluruh aplikasi frontend and backend
+- konfigurasi di Gitlab untuk melakukan koneksi agar membuat notifikasi discord 
+- membuat file .gitlab-ci.yml yang berisi script untuk menjalankan CI/CD 
+- terakhir, ketika CI/CD berhasil dilakukan akan terlihat pada notifikasi discord CI/CD berhasil
+```
+
 # Pembuatan akun Gitlab CI dan melakukan Setup ssh key untuk Gitlab CI
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/a36814be-40c6-4ef2-b4f8-7028085de3fb)
 

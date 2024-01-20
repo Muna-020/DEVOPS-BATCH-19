@@ -1,13 +1,30 @@
-Nama : Ahmad Munazar
-Kelas : DevOps Batch 19
-Task 2
+#### Nama : Ahmad Munazar
+#### Kelas : DevOps Batch 19
+#### Task 2
 
+```
+Application Backend merupakan  aplikasi Backend adalah bagian dari suatu aplikasi yang tidak terlihat oleh pengguna tetapi 
+sangat penting untuk menyediakan fungsionalitas dan mendukung pengalaman pengguna. Backend mencakup server, database, 
+dan logika aplikasi yang menjalankan proses di belakang layar. 
+Sedangkan Deploy Application Backend adalah proses memindahkan aplikasi backend dari lingkungan pengembangan atau pengujian ke 
+lingkungan produksi, sehingga dapat diakses oleh pengguna akhir. Proses ini melibatkan pemasangan atau implementasi kode aplikasi,
+konfigurasi server, dan menyusun sumber daya lain yang dibutuhkan agar aplikasi dapat berjalan dengan baik secara online.
+
+ringkasan tahapan pengerjaan untuk Deploy Application Frontend:
+- membuat sebuah VM di biznetGio dengan spesifikasi 2 CPU, 2 GB RAM, 60 GB STORAGE dengan nama appserver
+- Penggunaan Server VM yang telah dibuat untuk membuat user baru membuat SSH-Key untuk remote dari local ke VM
+- melakukan pembuatan database dengan penggunaan database mysql
+- konfigurasi aplikasi backend untuk migrasi data ke database mysql di VM appserver
+- serta konfigurasi API pada aplikasi frontend pada VM gateway
+- konfigurasi reverse proxy dan domain pada frontend dan backend serta pembuatan certifitcate untuk SSL pada kedua domain
+- mengakses seluruh frontend dan backend pada web browser dengan domain yang sudah dibuat 
+- terakhir melakukan register pada aplikasi dan mengecek di database data register sudah tersimpan. 
+```
 
 - Berikut Dokumentasi pembuatan server untuk VM di BiznetGio:
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/4255d17f-7895-49f2-9984-45daefb5fdca?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/5f173bc3-f08d-4f0b-b7a0-a6231f16ba4e?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/af813ff7-2bf7-4364-80ad-33e0747c10df?raw=true)
-
 
 - Selanjuntnya, Dokumentasi implementasi ssh config untuk koneksi antar server local dan vm:
 ![Screenshot from 2023-12-26 10-49-16](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/ed9e17d7-4f57-454b-ad0b-dd9d238a9f55)

@@ -7,7 +7,7 @@ semua yang diperlukan untuk menjalankan aplikasi, termasuk kode, runtime, sistem
 Docker membantu dalam memastikan konsistensi lingkungan dan memudahkan pengiriman aplikasi di berbagai
 lingkungan, seperti pengembangan lokal, uji, dan produksi.
 
-ringkasan tahapan pengerjaan untuk Deploy Application Frontend:
+ringkasan tahapan pengerjaan untuk Docker:
 - melakukan rebuild pada VM menjadi OS ubuntu 22 serta konfigurasi SSH-Password Only
 - instalasi Docker menggunakan Bash Script 
 - mempersiapkan seluruh aplikasi untuk melakukan deploy menggunakan Docker Compose

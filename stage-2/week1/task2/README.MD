@@ -10,7 +10,7 @@ Sedangkan Deploy Application Backend adalah proses memindahkan aplikasi backend 
 lingkungan produksi, sehingga dapat diakses oleh pengguna akhir. Proses ini melibatkan pemasangan atau implementasi kode aplikasi,
 konfigurasi server, dan menyusun sumber daya lain yang dibutuhkan agar aplikasi dapat berjalan dengan baik secara online.
 
-ringkasan tahapan pengerjaan untuk Deploy Application Frontend:
+ringkasan tahapan pengerjaan untuk Deploy Application Backend:
 - membuat sebuah VM di biznetGio dengan spesifikasi 2 CPU, 2 GB RAM, 60 GB STORAGE dengan nama appserver
 - Penggunaan Server VM yang telah dibuat untuk membuat user baru membuat SSH-Key untuk remote dari local ke VM
 - melakukan pembuatan database dengan penggunaan database mysql

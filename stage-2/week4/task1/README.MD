@@ -1,4 +1,17 @@
 # Monitoring
+```
+Monitoring server adalah proses dalam pemantaun sebuah server serta mengumpulkan data tersebut untuk mengidentifikasi potensi masalah, 
+mencegah kegagalan sistem, meningkatkan kinerja, dan memastikan ketersediaan layanan.
+
+Grafana, Prometheus, dan Node Exporter adalah alat-alat populer yang digunakan bersama-sama untuk membangun sistem monitoring
+
+Tahapan-tahapan ringkasan dalam pengerjaan monitoring:
+    - setup Container untuk membuat service Node Exporter, Prometheus, dan Grafana dan dijalankan pada setiap server yang ingin dimonitor.
+    - menjaalankan Prometheus untuk menyaring metrik dari Node Exporter dan menyimpannya dalam penyimpanan time series internal.
+    - Pembuatan Dashboard dengan menggunakan Grafana untuk memonitoring di seluruh server baik dari CPU, RAM, dan Penggunaan Disk
+    - konfigurasi pembuatan alerting notifikasi pada seluruh server apabila terdapat masalah.
+    - terakhir, melihat hasil notifikasi alert yang terkirim di discord.
+```
 
 #### 1. membuat konfigurasi reverse proxy untuk node-exporter untuk kedua server, grafana dan prometheus di server gateway  
 #

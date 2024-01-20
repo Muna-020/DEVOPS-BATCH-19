@@ -1,5 +1,21 @@
 # Docker
 
+```
+Docker adalah platform perangkat lunak yang memungkinkan developer untuk mengemas aplikasi beserta
+dependensinya ke dalam kontainer yang dapat dijalankan di berbagai lingkungan. Docker Container mencakup 
+semua yang diperlukan untuk menjalankan aplikasi, termasuk kode, runtime, sistem perpustakaan, dan pengaturan.
+Docker membantu dalam memastikan konsistensi lingkungan dan memudahkan pengiriman aplikasi di berbagai
+lingkungan, seperti pengembangan lokal, uji, dan produksi.
+
+ringkasan tahapan pengerjaan untuk Deploy Application Frontend:
+- melakukan rebuild pada VM menjadi OS ubuntu 22 serta konfigurasi SSH-Password Only
+- instalasi Docker menggunakan Bash Script 
+- mempersiapkan seluruh aplikasi untuk melakukan deploy menggunakan Docker Compose
+- Setup Docker Container agar seluruh Aplikasi dapat deploy dengan Docker Compose  
+- menjalankan Docker Compose lalu mengakses aplikasi di web browser dengan domain yang sudah dibuat
+- terakhir melakukan pull image untuk menyimpan image Docker seluruh aplikasi ke Docker registry. 
+```
+
 ## Rebuild VM menggunakan OS ubuntu 22 dan menerapkan ssh Password only 
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/57e1444a-0e61-4077-9570-293c86c76740)
 

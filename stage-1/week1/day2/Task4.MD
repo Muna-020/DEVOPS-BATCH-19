@@ -10,6 +10,6 @@
 - Teks manipulasi merujuk pada proses memanipulasi atau mengubah teks dalam berkas. Dalam konteks Unix/Linux, serangkaian perintah dan alat seperti sed (stream editor), echo, dan cat 
 
 - Firewall adalah sistem keamanan yang dirancang untuk melindungi jaringan komputer dari akses yang tidak sah dan serangan berbahaya.
-   Firewall dapat berupa perangkat keras atau perangkat lunak yang memantau, mengontrol, dan memfilter lalu lintas jaringan berdasarkan aturan keamanan tertentu. 
-   UFW adalah antarmuka pengguna untuk iptables, sistem firewall bawaan di Linux. UFW dirancang untuk membuat pengaturan firewall menjadi lebih mudah dan ramah pengguna, terutama bagi       pengguna yang mungkin tidak memiliki pengalaman mendalam dengan konfigurasi iptables. Dengan UFW, pengguna dapat dengan mudah menentukan aturan firewall untuk mengizinkan atau            memblokir lalu lintas, mengamankan sistem, dan mengelola akses jaringan.
+Firewall dapat berupa perangkat keras atau perangkat lunak yang memantau, mengontrol, dan memfilter lalu lintas jaringan berdasarkan aturan keamanan tertentu. 
+UFW adalah antarmuka pengguna untuk iptables, sistem firewall bawaan di Linux. UFW dirancang untuk membuat pengaturan firewall menjadi lebih mudah dan ramah pengguna, terutama bagi pengguna yang mungkin tidak memiliki pengalaman mendalam dengan konfigurasi iptables. Dengan UFW, pengguna dapat dengan mudah menentukan aturan firewall untuk mengizinkan atau            memblokir lalu lintas, mengamankan sistem, dan mengelola akses jaringan.
 ```

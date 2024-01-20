@@ -2,7 +2,7 @@
 #### Kelas : DevOps Batch 19
 #### Task 1
 
-# Deploy Application Frontend
+# Fundamental DevOps
 ```
 DevOps adalah suatu pendekatan dalam pengembangan perangkat lunak yang mengintegrasikan tim pengembangan (developers) dan operasi (operations) 
 dengan tujuan meningkatkan kolaborasi dan efisiensi dalam siklus pengembangan, pengujian, dan implementasi perangkat lunak. 

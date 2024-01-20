@@ -1,5 +1,21 @@
 # Jenkins
 
+
+```
+Jenkins adalah alat otomatisasi open-source yang digunakan untuk memfasilitasi proses pengembangan perangkat lunak. 
+Jenkins membantu dalam membangun, menguji, dan mendeploy perangkat lunak secara otomatis. Dengan menggunakan Jenkins,
+tim pengembang dapat mengotomatiskan berbagai tugas, mengurangi human-error, dan mempercepat siklus pengembangan perangkat lunak.
+
+ringkasan tahapan pengerjaan untuk Jenkins:
+- melakukan rebuild pada VM menjadi OS ubuntu 22 serta konfigurasi SSH-Password Only
+- pembuatan service jenkins dan nginx dengan reverse proxy dengan menggunakan docker
+- membuat sebuah Jenkinsfile untuk pembuatan script agar dapat melakukan CI/CD 
+- konfigurasi di jenkins untuk menjalankan CI/CD dengan metode Pipeline dengan SCM
+- melihat hasil CI/CD yang sudah dijalankan sudah berhasil pada notifikasi di discord
+- membuat sebuah auto trigger pada saat membuat perubahan pada file aplikasi di github repo
+- terakhir, CI/CD telah berjalan secara otomatis ketika terdapat perubahan pada file di repo.
+```
+
 # Pembuatan Jenkins dan Nginx untuk reverse proxy on top Docker
 ![photo_6107268411026423830_y](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/4e0136ea-4f26-41b0-b8b3-27d88efbe1cf)
 

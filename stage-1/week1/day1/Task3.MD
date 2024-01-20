@@ -2,7 +2,7 @@
 #### Kelas : DevOps Batch 19
 #### Task 2
 
-``
+```
 VCS (Version Control System) Git adalah alat yang membantu kita melacak dan mengelola perubahan pada proyek perangkat lunak. 
 Ini seperti "catatan perubahan" yang memungkinkan tim pengembang bekerja bersama dan menyimpan versi perangkat lunak pada setiap langkah.
 

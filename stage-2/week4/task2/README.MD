@@ -318,14 +318,174 @@ networks:
 ```
 
 #### 6. melakukan persiapan untuk aplikasi froontend di server app-server
-![Screenshot from 2024-01-14 12-43-34](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/fd31ddda-37ca-4295-9cb3-b885b1c970b2)
-![Screenshot from 2024-01-14 12-40-44](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/f6534b21-48be-400f-9c4c-87a46081a16a)
+```j2
+FROM node:10.23.0-alpine
+
+WORKDIR apps
+
+COPY . .
+
+RUN npm install
+
+RUN npm install pm2 -g
+
+EXPOSE 3000
+
+CMD ["npm", "start"]
+
+```
+```yaml
+- name: Prepare Application Frontend
+  hosts: 103.175.216.25
+  become: true
+  tasks:
+
+    - name: Clone Git Repository
+      git:
+        repo: https://github.com/dumbwaysdev/dumbflix-frontend.git
+        dest: /home/ahmad/dumbflix-frontend/
+      become: true
+
+    - name: Update cache
+      apt:
+        update_cache: yes
+
+    - name: Create file Dockerfile
+      template:
+        src: ./credential/Dockerfile-fe.j2
+        dest: /home/ahmad/dumbflix-frontend/Dockerfile     
+
+    - name: Setup Config frontend
+      lineinfile:
+        path: /home/ahmad/dumbflix-frontend/src/config/api.js
+        regexp: "baseURL: 'http://localhost:5000/api/v1'"
+        line: "baseURL: 'https://api-moonflo.studentdumbways.my.id/api/v1'"
+        backup: yes
+```
 
 #### 7. membuat konfigurasi reverse proxy untuk persiapan container aplikasi frontend di server app-server
-![Screenshot from 2024-01-14 12-48-15](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/8047f49b-3f00-4473-bf37-69f7f9349f77)
-![Screenshot from 2024-01-14 12-44-51](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/e9482222-c778-41df-8c67-110d8ac5f345)
+```j2
+server {
+	listen 80;
+	listen 443 ssl;
+	server_name flomoon.studentdumbways.my.id;
+
+        ssl_certificate /etc/letsencrypt/live/studentdumbways.my.id/fullchain.pem;
+        ssl_certificate_key /etc/letsencrypt/live/studentdumbways.my.id/privkey.pem;
+	
+	location / {
+		proxy_pass http://frontend:3000;
+                proxy_set_header Host $host;
+                proxy_set_header X-Real-IP $remote_addr;
+                proxy_set_header X-Forwarded-Host $host;
+                proxy_set_header X-Forwarded-Proto $scheme;
+                proxy_set_header X-Forwarded-Port $server_port;       
+
+	}
+	
+}
+
+server {
+        listen 443 ssl;
+        server_name exporter-flomoon.studentdumbways.my.id;
+
+        ssl_certificate /etc/letsencrypt/live/studentdumbways.my.id/fullchain.pem;
+        ssl_certificate_key /etc/letsencrypt/live/studentdumbways.my.id/privkey.pem;
+
+        location / {
+                proxy_pass http://node-exporter:9100;
+                proxy_set_header Host $host;
+                proxy_set_header X-Real-IP $remote_addr;
+                proxy_set_header X-Forwarded-Host $host;
+                proxy_set_header X-Forwarded-Proto $scheme;
+                proxy_set_header X-Forwarded-Port $server_port;
+        }
+
+}
+
+```
+```yaml
+- name: Configure Nginx Reverse Proxy
+  hosts: 103.175.216.25
+  become: true
+  tasks:
+    - name: Create Nginx directory
+      file:
+        path: "/home/ahmad/nginxRproxy"
+        state: directory
+
+    - name: Create Nginx configuration for Reverseproxy
+      template:
+        src: ./credential/rProxy-app.conf.j2
+        dest: /home/ahmad/nginxRproxy/rProxy.conf
+```
 
 #### 8.  melakukan setup container untuk deploy aplikasi frontend di app-server 
-![Screenshot from 2024-01-14 12-55-12](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/6e3a66c5-3d6d-48cd-8c10-47479fce62e1)
-![Screenshot from 2024-01-14 12-54-24](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/6047aaac-6ad3-4f17-9795-365448c90208)
+```j2
+version: '3.8'
+services:
+ 
+  frontend: 
+    container_name: fe
+    image: flomad0411/frontend:1.0
+    ports:
+      - "3000:3000"
+    networks:
+      local:
+
+  webserver:
+    container_name: nginx
+    restart: always
+    image: nginx:latest
+    user: root
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginxRproxy:/etc/nginx/conf.d
+      - /etc/letsencrypt/live/studentdumbways.my.id/fullchain.pem:/etc/letsencrypt/live/studentdumbways.my.id/fullchain.pem
+      - /etc/letsencrypt/live/studentdumbways.my.id/privkey.pem:/etc/letsencrypt/live/studentdumbways.my.id/privkey.pem
+    networks:
+      local:  
+  
+  node-exporter:
+    image: prom/node-exporter:latest
+    container_name: node-exporter
+    restart: unless-stopped
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /:/rootfs:ro
+    command:
+      - '--path.procfs=/host/proc'
+      - '--path.rootfs=/rootfs'
+      - '--path.sysfs=/host/sys'
+      - '--collector.filesystem.mount-points-exclude=^/(sys|proc|dev|host|etc)($$|/)'
+    ports:
+      - 9100:9100
+    networks:
+      local:
+
+networks:
+  local:
+```
+```yaml
+
+- name: Deploy Frontend Stack
+  hosts: 103.175.216.25
+  become: true
+  tasks:
+
+    - name: Create file Docker Compose
+      template:
+        src: ./credential/frontend-service.j2
+        dest: /home/ahmad/docker-compose.yaml
+   
+    - name: Create and start services
+      become: yes
+      shell: docker compose up -d
+      args:
+        chdir: /home/ahmad
+
+```
 

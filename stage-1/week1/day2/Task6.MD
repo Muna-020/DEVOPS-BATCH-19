@@ -16,3 +16,16 @@ Tahapan ringkas dalam penggunaan Reverse Proxy dengan Nginx sebagai web server:
 
 berikut gambaran pengerjaan reverse proxy dan load balancing:
 
+![alt text](https://github.com/sinambela99/DEVOPS-BATCH-19/blob/master/reverse%20proxy/4%20install%20nvm.png?raw=true)
+![alt text](https://github.com/sinambela99/DEVOPS-BATCH-19/blob/master/reverse%20proxy/5%20install%20npm%20.png?raw=true)
+![alt text](https://github.com/sinambela99/DEVOPS-BATCH-19/blob/master/reverse%20proxy/6%20npm%20start.png?raw=true)
+![alt text](https://github.com/sinambela99/DEVOPS-BATCH-19/blob/master/reverse%20proxy/9%20hasil%20clone%20yang%20sudah%20di%20jalankan.png?raw=true)
+![alt text](https://github.com/sinambela99/DEVOPS-BATCH-19/blob/master/reverse%20proxy/11%20cek%20status%20nginx.png?raw=true)
+![alt text](https://github.com/sinambela99/DEVOPS-BATCH-19/blob/master/reverse%20proxy/14%20configuration%20proxy%20sudah%20dibuat.png?raw=true)
+![alt text](https://github.com/sinambela99/DEVOPS-BATCH-19/blob/master/reverse%20proxy/17%20config%20pada%20local.png?raw=true)
+![alt text](https://github.com/sinambela99/DEVOPS-BATCH-19/blob/master/reverse%20proxy/19%20reverse%20proxy%20berhasil%20dibuat.png?raw=true)
+![alt text](https://github.com/sinambela99/DEVOPS-BATCH-19/blob/master/load%20balancer/4%20cek%20ip.png?raw=true)
+![alt text](https://github.com/sinambela99/DEVOPS-BATCH-19/blob/master/load%20balancer/6%20konfigurasi%20load%20balance.png?raw=true)
+![alt text](https://github.com/sinambela99/DEVOPS-BATCH-19/blob/master/load%20balancer/10%20aplikasi%20dapat%20berjalan.png?raw=true)
+![alt text](https://github.com/sinambela99/DEVOPS-BATCH-19/blob/master/load%20balancer/11%20test%20salah%20satu%20server%20mati.png?raw=true)
+![alt text](https://github.com/sinambela99/DEVOPS-BATCH-19/blob/master/load%20balancer/12%20aplkasi%20masih%20dapat%20berjlan%20.png?raw=true)

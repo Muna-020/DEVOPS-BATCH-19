@@ -8,7 +8,7 @@ Ringkasan tahapan pengerjaan untuk Ansible dan Ansible-Playbook:
 - menginstall docker serta menyiapkan aplikasi frontend
 - menyiapkan VM untuk dipergunakan dalam melakukan ansible
 - membuat seluruh script yang ingin kita gunakan dalam ansible
-
+```
 
 #### 1. Membuat User baru untuk server gateway dan app-server
 

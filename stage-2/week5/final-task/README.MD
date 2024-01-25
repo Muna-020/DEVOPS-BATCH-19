@@ -10,5 +10,5 @@
  ##### Melakukan Persiapan untuk segala pekerjaan pada ketiga server dengan penggunaan ansible sebagai berikut:
 
 
-+++
++ ++
 

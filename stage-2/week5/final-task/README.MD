@@ -4,7 +4,7 @@
 
 
 # DEPLOY APPLICATION DUMBMERCH
-
+```
  ##### Melakukan Persiapan untuk segala pekerjaan dengan penggunaan ansible sebagai berikut: 
 Requirements: 
 + ansible
@@ -12,7 +12,7 @@ Requirements:
      Appserver: 2GB RAM, 2 CPU
      Gateway: 1GB RAM, 1 CPU
      Registry-ahmad : 1GB RAM, 1 CPU
-
+```
 Provisiong menggunakan script ansible untuk :
 
 + Script Pembuatan User dan konfigurasi SSH pada ketiga server

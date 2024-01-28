@@ -37,13 +37,6 @@ Provisiong menggunakan script ansible untuk :
     - name: Setup Auth Pubkey sshd_config
       lineinfile:
         path: /etc/ssh/sshd_config
-        regexp: '^#?Port 22'
-        line: 'Port 1234'
-      notify: Restart SSH Service
-
-    - name: Setup Auth Pubkey sshd_config
-      lineinfile:
-        path: /etc/ssh/sshd_config
         regexp: '^#?PubkeyAuthentication no'
         line: 'PubkeyAuthentication yes'
       notify: Restart SSH Service

@@ -5,7 +5,8 @@
 
 # DEPLOY APPLICATION DUMBMERCH
 
- ##### Melakukan Persiapan untuk segala pekerjaan dengan penggunaan ansible sebagai berikut: 
+## 1. PROVISIONING
++ Melakukan Persiapan untuk segala pekerjaan dengan penggunaan ansible sebagai berikut: 
 ```
 Requirements: 
 + ansible
@@ -497,3 +498,92 @@ networks:
    
 + Setelah melakukan clone repository dengan automation dari ansible, dilanjutkan dengan mengakses tiap direktori backend dan frontend dumbmerch untuk melakukan konfigurasi file .env lalu membuat repository baru di akun github untuk frontend dan backend. Kemudian membuat sebuah branch baru dengan nama “staging” dan “production” (untuk mendukung pembuatan cicd)
 + setelah melakukan tahap diatas, kemudian melakukan push repository frontend dan backend dari app-server ke repository akun github.
+Berikut gambaran tahap pengerjaan Repository:
+![Screenshot from 2024-01-30 13-03-19](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/432197aa-8879-4e12-9d92-f6161f543bb4)
+![Screenshot from 2024-01-28 16-15-32](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/e4d3e33b-308d-4063-b74b-033214c3b7f6)
+![Screenshot from 2024-01-28 16-15-46](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/399a0c0f-8e0a-4377-bd97-870045ae5583)
+![Screenshot from 2024-01-28 16-16-06](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/a751a887-91c5-440e-b836-049dff28f659)
+![Screenshot from 2024-01-28 16-16-17](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/210f8339-735b-47a6-8a8d-41db2b6976a4)
+#
+## 3. Server Management
+  
++ Pada tahap ini terlebih dahulu membuat sebuah file untuk konfigurasi ssh di local-server dengan nama file “config” 
++ kemudian,melakukan konfigurasi pada penggunaan firewall di kedua server untuk mengizinkan port-port yang dapat dipakai dalam mengakses suatu aplikasi maupun server.
++ Selanjutnya, mengubah konfigurasi file sshd_config pada bagian port menjadi port 1234 lalu melakukan restart ssh service.
+Berikut gambaran tahap pengerjaan Server Management:
+![Screenshot from 2024-01-25 02-08-12](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/e3111823-1d54-4213-97ba-651e9ba9f7a8)
+![Screenshot from 2024-01-25 02-09-38](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/2591cc47-603d-472c-9bcc-1943c7ac9b1b)
+![Screenshot from 2024-01-28 18-08-33](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/8614389f-05f5-4767-af16-ea10a69a394f)
+![Screenshot from 2024-01-29 00-52-47](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/7d691bf2-5f9f-409a-bb65-fc54b510a9ad)
+#
+## 4. Deployment
+   
++ Pada tahap ini melakukan persiapan dalam mendeploy aplikasi di masing-masing direktori frontend dan backend, terlebih dahulu membuat Dockerfile untuk Dockerized dalam membuat image aplikasi frontend dan backend. 
++ Setelah itu melakukan penambahan script untuk database postgresql serta aplikasi frontend dan backend agar berjalan di docker pada file docker compose.
++ Selanjutnya, membuat file .env yang berisi variabel dalam persiapan membuat database postgresql dan kedua aplikasi.
++ Menjalankan service database untuk melakukan persiapan migrasi data dari backend ke database.
++ Membuat sebuah image pada frontend dan backend “docker build -t flomad0411/dumbmerch-”fe/be”:1.0" 
++ Menjalankan seluruh services dari docker lalu melakukan push image ke docker hub
+Berikut gambaran tahap pengerjaan Deployment:
+![dcfilebe](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/eb40bd34-61ff-44d0-a9e7-44bfe50b2762)
+![dcfilefe](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/683e6145-24e8-4b70-9bb1-fa56042a971b)
+![Screenshot from 2024-01-29 05-27-09](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/6ae2b24f-b657-4fd6-99df-c369956c42d7)
+![plusapp](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/7b9047a3-ab97-4399-ae76-397019cb4225)
+![Screenshot from 2024-01-30 13-12-18](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/ba717b24-12dd-4606-8757-36adbb73c6c9)
+![Screenshot from 2024-01-28 19-45-14](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/4a8ca559-f2bc-4b3e-90d2-7f65e415627e)
+#
+## 5. CICD
+   
++ Pada tahap ini dalam melakukan CICD pada aplikasi frontend dan backend yaitu dengan menggunakan GitlabCI.  
++ Selanjutnya, membuat sebuah repository di GitlabCI untuk menyiapkan sebuah file “.gitlab-ci.yml” agar bisa digunakan untuk CICD
++ Setelah itu, membuat sebuah script  agar melakukan CICD dari tahapan melakukan pull image di kedua branch yaitu “staging” dan “production pada kedua aplikasi, melakukan build image, melakukan test aplikasi, lalu deploy aplikasi dan melakukan push image ke docker hub 
+Berikut gambaran tahap pengerjaan CICD:
+![cicdstage](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/1f006437-ec60-4af3-b1ed-a21f0b35e542)
+![cicdproduct](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/824bf07b-51f6-4492-891a-21fc57d7eb2c)
+![Screenshot from 2024-01-29 08-01-32](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/363fbbcf-8746-41c9-a1cb-08f372bf161d)
+![Screenshot from 2024-01-29 05-17-06](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/03661f4f-31e8-430c-adfd-ad02d91e00fc)
+#
+## 6.  Web Server
+   
++ Di tahap ini, melakukan konfigurasi serta penggunaan SSL pada file reverse proxy untuk bisa mengakses kedua aplikasi dengan domain yang aman 
++ Menambahkan dua buah script pada docker compose yaitu service nginx untuk load balancing  
++ Melakukan penambahan DNS pada cloudflare untuk domain seluruh aplikasi.
++ Menjalankan services webserver untuk nginx yang berjalan di docker compose .
++ Melakukan testing akses serta register akun aplikasi frontend dan backend dumbmerch.
++ lalu mengecek pada database postgresql untuk melihat hasil register yang berhasil dibuat.
++ Kemudian membuat sebuah bash script untuk melakukan pembaruan certificate secara automasi
+Berikut gambaran tahap pengerjaan Monitoring:
+![nginxfix](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/fa0cb142-1e6a-40f6-b6d6-c770cc36ed64)
+![lbdc](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/767b4857-2f43-43b5-8f73-ba8350612c30)
+![conf-fe](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/0cfdac44-83a4-4023-b86e-7141b17ee9b4)
+![lb-be](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/8f48cab0-704d-4c71-906f-be2d9821a985)
+![Screenshot from 2024-01-28 18-06-49](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/a5fd8256-d139-42ff-b9b5-91aef18a69b2)
+![Screenshot from 2024-01-28 18-06-45](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/6fa44a0d-9829-4e82-9114-22358a8f24af)
+![Screenshot from 2024-01-25 02-09-38](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/090ec199-9e71-447b-8024-655b6d0ffd96)
+![Screenshot from 2024-01-24 09-08-53](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/18f45e51-b67a-40e9-b12a-b2d3c624ec2e)
+![Screenshot from 2024-01-24 09-05-43](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/227bdeb7-0557-484b-82bd-8b78fb234336)
+![Screenshot from 2024-01-24 09-07-11](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/15cbcfd3-d9df-4225-a0f6-01874c0c8265)
+![Screenshot from 2024-01-24 09-08-31](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/ddadb69b-ac7e-419a-9747-9a426e8b4dd0)
+![Screenshot from 2024-01-24 09-09-02](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/f510acb2-ffa6-45d7-a076-6b859f14f1b8)
+![Screenshot from 2024-01-24 09-03-35](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/f23c69d8-2d6e-433f-be29-a86aff7adcb3)
+![renew](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/156d7795-4e62-481c-b05f-f5ebfe127d37)
+
+#
+## 7.  Monitoring
+   
++ Tahap selanjutnya ini, melakukan beberapa konfigurasi pada prometheus untuk membuat koneksi agar dapat melakukan monitoring serta membuat sebuah basic auth pada file reverse proxy untuk promethus agar lebih aman.  
++ Menjalankan grafana kemudian membuat Dashboard untuk monitoring seluruh server dengan query dari promQL.
++ Membuat sebuah konfigurasi untuk alerting atau peringatan pada suatu server yang di monitoring serta membuat koneksi dengan telegram untuk memberi notifikasi alert dari grafana
+Berikut gambaran tahap pengerjaan Monitoring: 
+![baprom](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/308cbe36-fc97-46b7-8898-7d37659ab9a6)
+![promfix](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/4b229577-dca1-4314-b38b-909635b238e8)
+![Screenshot from 2024-01-24 11-05-30](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/8c09aece-3538-44a3-a2f3-2a380c0e530b)
+![Screenshot from 2024-01-28 19-37-49](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/5fa73593-e880-49b1-b19b-6ec280fb2de3)
+![Screenshot from 2024-01-28 19-38-04](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/fee75af4-a4b9-4ffd-ae51-9c4159801272)
+![Screenshot from 2024-01-28 16-09-11](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/3156be50-5827-4676-873a-8c84273e1e5a)
+![Screenshot from 2024-01-29 06-56-53](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/52562811-837c-4d70-9710-649fa966b79a)
+![Screenshot from 2024-01-28 19-44-38](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/7f66a566-f6a3-452e-8a17-7b7bbd93a3b7)
+![Screenshot from 2024-01-28 19-43-48](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/213bd746-c3a7-49fd-bce4-9a3a1771e6ed)
+![Screenshot from 2024-01-24 20-25-16](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/83b0e5ea-a440-41ec-b922-4873d2122f22)
+
+

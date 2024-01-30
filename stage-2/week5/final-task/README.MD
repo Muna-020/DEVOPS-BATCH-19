@@ -14,6 +14,10 @@ Requirements:
      Gateway: 1GB RAM, 1 CPU
      Registry-ahmad : 1GB RAM, 1 CPU
 ```
+
++ Pada tahap ini terlebih dahulu menyiapkan dua buah server yaitu server Gateway dan App-server.
++ memilih sebuah tools ansible sebagai untuk melakukan automation agar bisa menyediakan sarana yang dibutuhkan dalam pengerjaan deploy aplikasi
++ setelah menyiapkan script yang dibutuhkan seperti membuat user baru dan konfigurasi otentikasi ssh, instalasi docker, instalasi cerbot dan  generate SSL, kemudian mengclone repository dari github yaitu repository untuk backend dan             frontend, membuat script untuk monitoring yang berjalan di docker compose, serta konfigurasi reverse proxy dengan nginx menggunakan docker compose.
 Provisiong menggunakan script ansible untuk :
 
 + Script Pembuatan User dan konfigurasi SSH pada ketiga server

@@ -148,13 +148,13 @@ Provisiong menggunakan script ansible untuk :
 
     - name: Create Certbot configuration directory
       file:
-          path: "/home/ahmad/.secrets"
+          path: "/home/finaltask-ahmad/.secrets"
           state: directory
 
     - name: Create Certbot Cloudflare credentials file
       template:
           src: ./credential/cloudflare.ini.j2  
-          dest: "/home/ahmad/.secrets/cloudflare.ini"
+          dest: "/home/finaltasks-ahmad/.secrets/cloudflare.ini"
           mode: 0400
 
     - name: Run Certbot to obtain certificates
@@ -317,45 +317,6 @@ scrape_configs:
 ```
 
 ```j2
-server {
-	listen 80;
-	listen 443 ssl;
-	server_name ahmad.studentdumbways.my.id;
-
-        ssl_certificate /etc/letsencrypt/live/ahmad.studentdumbways.my.id/fullchain.pem;
-        ssl_certificate_key /etc/letsencrypt/live/ahmad.studentdumbways.my.id/privkey.pem;
-	
-	location / {
-		proxy_pass http://103.175.216.25:3000;
-                proxy_set_header Host $host;
-                proxy_set_header X-Real-IP $remote_addr;
-                proxy_set_header X-Forwarded-Host $host;
-                proxy_set_header X-Forwarded-Proto $scheme;
-                proxy_set_header X-Forwarded-Port $server_port;       
-
-	}
-	
-}
-
-server {
-	listen 80;
-	listen 443 ssl;
-	server_name api.ahmad.studentdumbways.my.id;
-
-        ssl_certificate /etc/letsencrypt/live/ahmad.studentdumbways.my.id/fullchain.pem;
-        ssl_certificate_key /etc/letsencrypt/live/ahmad.studentdumbways.my.id/privkey.pem;
-	
-	location / {
-		proxy_pass http://103.175.216.25:3000;
-                proxy_set_header Host $host;
-                proxy_set_header X-Real-IP $remote_addr;
-                proxy_set_header X-Forwarded-Host $host;
-                proxy_set_header X-Forwarded-Proto $scheme;
-                proxy_set_header X-Forwarded-Port $server_port;       
-
-	}
-	
-}
 
 server {
         listen 443 ssl;

@@ -14,8 +14,12 @@ Tahapan ringkasan pembuatan simple application:
 + setelah menjalankan PM2 dapat mencoba akses seluruh aplikasi di browser sesuai port yang digunakan
 
 berikut gambaran pembuatan simple application:
-![Screenshot from 2023-11-28 09-30-31](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/6a195263-96bc-4272-a62d-e5fa3a48e763)
+1. pada kedua gambar ini untuk melakukan instalasi sebuah nvm (node version manager) yang digunakan untuk menginstal node.js tanpa harus menghapus versi lainnya
+
+[Screenshot from 2023-11-28 09-30-31](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/6a195263-96bc-4272-a62d-e5fa3a48e763)
 ![Screenshot from 2023-11-28 09-35-20](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/2d6ec3ba-3205-4905-b85f-d6cff0399b1b)
+
+
 ![Screenshot from 2023-11-28 22-27-12](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/4c38dea9-53f2-4899-8376-cd7308dbe9d3)
 ![Screenshot from 2023-11-28 22-28-56](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/3050e30e-e4e4-4d6b-9a01-706c264fa828)
 ![Screenshot from 2023-11-28 22-42-15](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/65d74407-22e4-4a21-b206-a82afb0eb67d)

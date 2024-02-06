@@ -18,45 +18,34 @@ Berikut penggunaan teks editor, manipulasi teks dan implementasi firewall ufw:
 ![Screenshot from 2023-11-28 08-26-48](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/802f3e26-824b-452c-aba6-434bed9ae9f2)
 ![Screenshot from 2023-11-28 08-26-59](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/70d674f0-7f0c-40af-86ed-5aa98d48dca8)
 
-2. 
+2. pada kedua gambar ini untuk melakukan sebuah copy kata pada nano yaitu terlebih dahulu melakukan block set dengan `alt-a` pada kata yang akan di copy lalu untuk paste kata dengan `alt-6`.
 
 ![Screenshot from 2023-11-28 08-29-12](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/93a3afe1-edb7-4fdf-a023-f5b350d9e851)
 ![Screenshot from 2023-11-28 08-30-33](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/7e85e33d-0261-4a42-9e4d-46c0a8db1255)
-![Screenshot from 2023-11-28 08-31-12](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/d142d866-0e4f-41aa-bdad-6512bb9bb500)
-![Screenshot from 2023-11-28 08-31-30](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/6e9a4f09-d7ab-480e-9405-34cf8e62fba3)
-![Screenshot from 2023-11-28 08-33-45](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/0b0de231-1d0e-438f-a6e4-fd38ad77dce4)
-![Screenshot from 2023-11-28 08-33-50](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/ddf13315-b1df-412e-a01f-7f432ecd9ead)
 
-3
+3. pada ketiga gambar ini untuk mencari sebuah kata menggunakan nano dengan `ctrl-w` kemudian akan tampil sebuah inputan untuk mencari kata yang diinginkan berdasarkan regular expression 
+dengan `alt-r` lalu akan terlihat dengan blok warna kuning kata yang telah dicari.
+
 ![Screenshot from 2023-11-28 08-34-31](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/7b5a2ab0-6c86-4eb8-b237-e0d58888c188)
 ![Screenshot from 2023-11-28 08-36-40](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/ab34d4ac-490e-440c-820e-e93d93e5a55c)
 ![Screenshot from 2023-11-28 08-36-44](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/860c9237-28df-452f-a3fd-8996d9bee19a)
 
 
-4
-![Screenshot from 2023-11-28 09-12-24](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/6d407b7d-015b-4a41-9530-7c2608deb38f)
-![Screenshot from 2023-11-28 09-13-25](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/4637aff9-7065-4208-8061-a3ec992ef8f7)
+4. pada gambar ini untuk penggunaan perintah `cat >> file2` agar dapat menambahkan sebuah kata atau kalimat pada file2
 
-5
-![Screenshot from 2023-11-28 09-15-10](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/5097b2d2-c64c-4a4e-874f-908b745984ae)
+![Screenshot from 2023-11-28 09-12-24](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/6d407b7d-015b-4a41-9530-7c2608deb38f)
+
+5 perintah pada gambar ini untuk melakukan manipulasi data dengan merubah dari suatu file dengan perintah `sed -i 's/ini/itu/g' file3` dari perintah itu melakukan pencarian dari kata 's/' kemudian mencari kata 'ini' untuk diubah menjadi 'itu' seluruh kata 'ini'.
+
 ![Screenshot from 2023-11-28 09-15-20](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/ecbff695-7089-43e3-9c8d-19d2e3077d90)
 
-6.
-![Screenshot from 2023-11-28 09-25-11](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/562f571f-ebc2-4c88-bc3e-dd23c169096f)
+6. pada gambar ini untuk mencari dan menghitung jumlah kata `file3` pada sebuah file yaitu file3
+
 ![Screenshot from 2023-11-28 12-39-00](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/bb9cac12-52ce-4c2e-b88c-f3fa01fbd16b)
 
-7.
-![Screenshot from 2023-11-28 12-43-24](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/407b0479-eab7-4596-a807-df41aaf14b35)
-![Screenshot from 2023-11-28 12-43-27](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/f00e5f28-4e94-402d-a3f6-de43703df17d)
-![Screenshot from 2023-11-28 12-49-03](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/d856d17c-0300-495d-944c-cc7ab70fd07c)
-![Screenshot from 2023-11-28 12-54-34](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/44486747-55bc-4c52-9bc5-11bb80039c9c)
 
-8.
-![Screenshot from 2023-11-28 13-07-47](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/712caca4-05ff-4379-ab69-993d3350c091)
-![Screenshot from 2023-11-28 13-08-11](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/3eb73502-a7c0-44e0-b86c-a5fd98c0d433)
-![Screenshot from 2023-11-28 13-09-50](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/b5b7c948-19ee-4e73-86fd-a3300bce0d5f)
+7. pada ketiga gambar ini untuk mengimplementasikan sebuah firewall bawaan dari ubuntu yaitu ufw yang dalam pengguanaan ufw tersebut untuk memberi keamanan pada suatu aplikasi atau server dalam mengaksesnya menggunakan port.
 
-9.
 ![Screenshot from 2023-11-28 13-17-54](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/cfa2bd1e-59d9-47c2-8767-8440061e2bc1)
 ![Screenshot from 2023-11-28 13-26-43](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/b24afdd1-89be-4211-9b25-3ad473c49b97)
 ![Screenshot from 2023-11-28 13-28-09](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/82bfcf6d-497e-4214-8ded-dabba45faaf5)

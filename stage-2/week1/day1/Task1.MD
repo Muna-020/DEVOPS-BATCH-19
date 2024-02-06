@@ -41,7 +41,7 @@ ringkasan tahapan pengerjaan untuk Deploy Application Frontend:
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/7ffe4588-f6bf-4c13-977b-54d9810c5fc7?raw=true)
 
 #### konfigurasi reverse proxy serta implementasi penggunaan domain melalui cloudflare:
-+ pada keenam gambar ini untuk membuat sebuah nama domain dengan menggunakan cloudflare yaitu `ahmad.studentdumbways.my.id`. kemudian membuat sebuah reverse proxy dengan menggunakan domain yang dibuat dan menambahkan konfigurasi directory include pada file nginx.conf. terakhir melakukan percobaan akses dengan menggunakan domain menuju aplikasi frontend yang berjalan di web browser.
++ pada keenam gambar ini untuk membuat sebuah nama domain dengan menggunakan cloudflare yaitu `ahmad.studentdumbways.my.id`. kemudian membuat sebuah reverse proxy dengan menggunakan domain yang dibuat dan menambahkan konfigurasi directory include pada file nginx.conf setelah itu melakukan reload dan restart nginx. terakhir melakukan percobaan akses dengan menggunakan domain menuju aplikasi frontend yang berjalan di web browser.
 
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/7c0778a3-8d01-4fbe-a903-42c3ac98d9da?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/73f0ebb1-0ee8-457a-b900-f09b26591121?raw=true)

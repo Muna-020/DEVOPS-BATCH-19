@@ -33,6 +33,7 @@ IP dinamis lebih mudah dielola dalam skenario jaringan yang memerlukan penangana
 :::Linux Shell adalah antarmuka pengguna teks yang memungkinkan pengguna untuk berinteraksi dengan sistem operasi Linux melalui perintah-perintah baris perintah. 
 Shell berfungsi sebagai penerjemah antara pengguna dan inti sistem operasi, menerima perintah-perintah dari pengguna dan mengeksekusinya. Salah satu keunggulan utama 
 Linux Shell adalah fleksibilitasnya yang tinggi, memungkinkan pengguna untuk mengotomatiskan tugas-tugas dengan skrip perintah atau "shell scripts".:::
+
 cd (change directory):
 ```
  melakukan perpindahan antar direktori

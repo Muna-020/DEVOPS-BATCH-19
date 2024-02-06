@@ -4,7 +4,7 @@
 
 # Basic Network & Linux Shell
 
-```
+
 Jaringan atau Network adalah kumpulan perangkat jaringan (network devices) dan perangkat komputer (end devices) 
 yang saling terhubung melalui perantara media transmisi untuk dapat melakukan sharing data dan sumber daya.
 
@@ -17,8 +17,8 @@ secara langsung dari internet dan biasanya digunakan untuk menyediakan layanan p
 Di sisi lain, IP Pribadi digunakan dalam jaringan lokal (LAN) atau jaringan pribadi, dan tidak dirancang untuk diakses langsung dari internet.
 Contoh format IP Pribadi untuk IPv4 adalah 192.168.1.1, dan untuk IPv6 adalah fd12:3456:789a:1::1. IP Pribadi memungkinkan komunikasi antara perangkat dalam 
 jaringan lokal tetapi tidak dapat diakses secara langsung dari internet. IP Pribadi biasanya digunakan di rumah atau kantor untuk mengatur perangkat di dalam jaringan lokal.
-```
-```
+
+
 Alamat IP statis adalah alamat IP yang tetap atau tidak berubah, ditetapkan secara manual pada perangkat jaringan. Dalam konteks ini, setiap perangkat memiliki alamat IP yang ditentukan 
 dan tidak berubah meskipun terjadi restart atau pemutusan koneksi. IP statis sering digunakan untuk perangkat atau server yang perlu memiliki alamat yang konsisten dan dapat diakses
 dengan mudah. Misalnya, server web atau router mungkin diberikan IP statis untuk memastikan ketersediaan dan aksesibilitas yang konsisten. Meskipun memberikan stabilitas, penggunaan IP
@@ -29,7 +29,6 @@ yang tersedia secara dinamis. Pendekatan ini memungkinkan alokasi alamat IP yang
 manajemen jaringan karena tidak memerlukan konfigurasi manual pada setiap perangkat, namun, dapat menyebabkan perubahan alamat IP dari waktu ke waktu. Meskipun umumnya digunakan di lingkungan rumahan dan kantor, 
 IP dinamis lebih mudah dielola dalam skenario jaringan yang memerlukan penanganan alokasi alamat yang efisien.
 
-```
 Linux Shell adalah antarmuka pengguna teks yang memungkinkan pengguna untuk berinteraksi dengan sistem operasi Linux melalui perintah-perintah baris perintah. 
 Shell berfungsi sebagai penerjemah antara pengguna dan inti sistem operasi, menerima perintah-perintah dari pengguna dan mengeksekusinya. Salah satu keunggulan utama 
 Linux Shell adalah fleksibilitasnya yang tinggi, memungkinkan pengguna untuk mengotomatiskan tugas-tugas dengan skrip perintah atau "shell scripts".

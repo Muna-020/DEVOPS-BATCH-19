@@ -12,10 +12,14 @@
 
 Berikut penggunaan teks editor, manipulasi teks dan implementasi firewall ufw:
 
-![Screenshot from 2023-11-28 08-25-37](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/2cfbc6fc-dc62-4226-9167-bcd2e0edb249)
+1. pada ketiga gambar ini untuk membuka file dengan file1 menggunakan perintah `nano file1` kemudian mengisi sebuah data atau kata dalam file tersebut setelah itu melakukan save untuk menyimpan data atau kata tersebut.
+
 ![Screenshot from 2023-11-28 08-25-54](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/25bb3c97-d7d9-4d21-9a49-d2e256d9e215)
 ![Screenshot from 2023-11-28 08-26-48](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/802f3e26-824b-452c-aba6-434bed9ae9f2)
 ![Screenshot from 2023-11-28 08-26-59](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/70d674f0-7f0c-40af-86ed-5aa98d48dca8)
+
+2. 
+
 ![Screenshot from 2023-11-28 08-29-12](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/93a3afe1-edb7-4fdf-a023-f5b350d9e851)
 ![Screenshot from 2023-11-28 08-30-33](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/7e85e33d-0261-4a42-9e4d-46c0a8db1255)
 ![Screenshot from 2023-11-28 08-31-12](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/d142d866-0e4f-41aa-bdad-6512bb9bb500)

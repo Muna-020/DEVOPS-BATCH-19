@@ -63,6 +63,8 @@ echo
 untuk menampilkan teks atau variabel di layar. 
 ```
 
+berikut gambaran penggunaan perintah pada linux shell:
+
 ![Screenshot from 2023-11-22 16-08-00](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/72d39a57-015a-432d-bdbb-f788f7ec2983)
 ![Screenshot from 2023-11-22 16-06-39](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/b2d8895b-bd59-48e8-8c31-2c095ec9382f)
 ![Screenshot from 2023-11-22 16-05-45](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/2d7ae665-6ac0-4c81-b1ce-7dcb6e6ba438)

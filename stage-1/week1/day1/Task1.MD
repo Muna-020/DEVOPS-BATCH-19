@@ -50,12 +50,16 @@ Adapun ringkasan tahap-tahap dalam pembuatan server ubuntu:
 ```
 berikut gambaran hasil pembuatan ubuntu server:
 1. melakukan konfigurasi pada bagian Network untuk membuat IP Static lalu mengisi subnet dengan IP utama dengan prefix /24, kemudian pada bagian addres diisi dengan IP yang akan digunakan, dan di bagian gateway diisi dengan IP yang menjadi titik akses untuk Network lokal dan Network Eksternal.  
+
 ![Screenshot from 2023-11-22 08-52-38](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/7ce41924-def4-4f2a-b1c3-34a3e64c47d7)
 ![Screenshot from 2023-11-22 08-53-02](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/4dc53020-2f57-440a-a180-b21a6c6247bc)
 ![Screenshot from 2023-11-22 08-52-09](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/d25e86af-73a6-4300-955a-1b4e37dd0a29)
 2. melakukan konfigurasi update pada ubuntu untuk package yang diperlukan
+
 ![Screenshot from 2023-11-22 08-55-04](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/f1b9b39c-1d76-4295-badb-2c25dd3edc21)
+
 3. konfigurasi pada bagian storage dengan mengkostumnya dalam menjadi tiga partisi yaitu partisi pertama untuk BIOS 1MB, partisi kedua untuk storage cadangan 2GB, dan partisi ketiga untuk ROOT atau storage utama 7,9GB.
+
 ![Screenshot from 2023-11-22 08-56-42](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/807f198e-62ab-4ef3-9cf7-10e8e019d08f)
 ![Screenshot from 2023-11-22 08-57-15](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/6239ddfa-53b4-4b07-b584-316358a03bcf)
 ![Screenshot from 2023-11-22 08-57-45](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/beeb5e9b-d534-486e-8e15-7de7cce28883)

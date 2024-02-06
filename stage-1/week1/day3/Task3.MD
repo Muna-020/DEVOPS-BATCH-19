@@ -13,6 +13,8 @@ git init
 melakukan inisiasi pembuatan repository local untuk bisa mengirimkan ke repository github
 ```
 
+![Screenshot from 2023-11-22 23-59-30](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/273141a0-ac85-47ad-b953-8300ca1d17f4)
+
 git clone
 ```
 Mengunduh repositori Git yang sudah ada dari remote repository.
@@ -37,9 +39,7 @@ git push
 ```
 Mengirim perubahan lokal ke remote repository github.
 ```
-![Screenshot from 2023-11-22 23-58-05](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/c264d920-e1fc-4c9c-b8cd-8b31fe3c8006)
-![Screenshot from 2023-11-22 23-59-30](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/273141a0-ac85-47ad-b953-8300ca1d17f4)
-![Screenshot from 2023-11-22 23-59-49](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/3fdba4e9-a67f-4b3a-8266-4f9003fdb3eb)
+
 ![Screenshot from 2023-11-23 00-01-53](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/58221a16-a51c-4c6b-9525-c3018b4d72ea)
 ![Screenshot from 2023-11-23 00-04-44](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/19ab297b-08b7-4e6d-81a0-65e55a43ae79)
 ![Screenshot from 2023-11-23 00-05-45](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/9bc5150b-e25a-460e-aa76-f530d73dbd58)

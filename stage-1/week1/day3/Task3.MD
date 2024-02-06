@@ -19,18 +19,28 @@ git clone
 ```
 Mengunduh repositori Git yang sudah ada dari remote repository.
 ```
+
 git add
 ```
 Menambahkan perubahan pada file yang sudah di modified ke staging area (daftar perubahan yang akan di-commit).
 ```
+
+![Screenshot from 2023-11-23 00-04-44](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/19ab297b-08b7-4e6d-81a0-65e55a43ae79)
+
 git commit
 ```
 menetapkan perubahan pada repo local yang sudah siap di kirimkan ke github
 ```
+
+![Screenshot from 2023-11-23 00-04-44](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/19ab297b-08b7-4e6d-81a0-65e55a43ae79)
+
 git status
 ```
 Menampilkan status perubahan di repo local.
 ```
+
+![Screenshot from 2023-11-23 00-01-53](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/58221a16-a51c-4c6b-9525-c3018b4d72ea)
+
 git pull
 ```
 Mengambil perubahan terbaru dari remote repository github. 
@@ -39,9 +49,6 @@ git push
 ```
 Mengirim perubahan lokal ke remote repository github.
 ```
-
-![Screenshot from 2023-11-23 00-01-53](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/58221a16-a51c-4c6b-9525-c3018b4d72ea)
-![Screenshot from 2023-11-23 00-04-44](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/19ab297b-08b7-4e6d-81a0-65e55a43ae79)
 ![Screenshot from 2023-11-23 00-05-45](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/9bc5150b-e25a-460e-aa76-f530d73dbd58)
 ![Screenshot from 2023-11-23 00-06-01](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/4f288546-3697-4769-a2c8-133e033e94f1)
 ![Screenshot from 2023-11-23 00-06-06](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/db091fb9-8f70-47fa-9742-2a3a8f9cece4)

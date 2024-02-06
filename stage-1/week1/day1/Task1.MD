@@ -76,8 +76,13 @@ berikut gambaran hasil pembuatan ubuntu server:
 5. melakukan pilihan apakah ingin menginstall ssh untuk melakukan remote pada ubuntu server atau tidak yang mana pada bagian ini memilih untuk menginstall ssh server
 
 ![Screenshot from 2023-11-22 09-18-18](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/0e4d86f2-d6dd-4548-92a4-da94f82926ac)
+
+6. tahap terakhir melakukan instalasi seluruh package yang ada di ubuntu yang setelah melakukan instal ubuntu akan menampilkan shell yang akan digunakan pada ubuntu server
+
 ![Screenshot from 2023-11-22 14-08-23](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/8ab2c7c3-be87-4923-9df1-0fc80b58e540)
 ![Screenshot from 2023-11-22 14-14-04](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/bdb0d81e-bfbf-4477-bccd-b67a02f1d24b)
+
+7. kemudian melakukan percobaan akses secara remote dari server lokal ke server ubuntu yang sudah dibuat dengan **ssh ahmad@192.168.1.31.45**
 ![Screenshot from 2023-11-22 14-20-11](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/40fcd6d6-083d-43bb-8384-5daee2ceef21)
 ![Screenshot from 2023-11-22 14-20-55](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/d806fe5a-ecc2-432a-801d-010bfa06c4dc)
 ![Screenshot from 2023-11-22 14-21-14](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/60753677-49f2-415b-b8f8-962787cac044)

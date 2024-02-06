@@ -36,17 +36,27 @@ Berikut penggunaan teks editor, manipulasi teks dan implementasi firewall ufw:
 4
 ![Screenshot from 2023-11-28 09-12-24](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/6d407b7d-015b-4a41-9530-7c2608deb38f)
 ![Screenshot from 2023-11-28 09-13-25](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/4637aff9-7065-4208-8061-a3ec992ef8f7)
+
+5
 ![Screenshot from 2023-11-28 09-15-10](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/5097b2d2-c64c-4a4e-874f-908b745984ae)
 ![Screenshot from 2023-11-28 09-15-20](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/ecbff695-7089-43e3-9c8d-19d2e3077d90)
+
+6.
 ![Screenshot from 2023-11-28 09-25-11](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/562f571f-ebc2-4c88-bc3e-dd23c169096f)
 ![Screenshot from 2023-11-28 12-39-00](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/bb9cac12-52ce-4c2e-b88c-f3fa01fbd16b)
+
+7.
 ![Screenshot from 2023-11-28 12-43-24](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/407b0479-eab7-4596-a807-df41aaf14b35)
 ![Screenshot from 2023-11-28 12-43-27](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/f00e5f28-4e94-402d-a3f6-de43703df17d)
 ![Screenshot from 2023-11-28 12-49-03](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/d856d17c-0300-495d-944c-cc7ab70fd07c)
 ![Screenshot from 2023-11-28 12-54-34](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/44486747-55bc-4c52-9bc5-11bb80039c9c)
+
+8.
 ![Screenshot from 2023-11-28 13-07-47](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/712caca4-05ff-4379-ab69-993d3350c091)
 ![Screenshot from 2023-11-28 13-08-11](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/3eb73502-a7c0-44e0-b86c-a5fd98c0d433)
 ![Screenshot from 2023-11-28 13-09-50](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/b5b7c948-19ee-4e73-86fd-a3300bce0d5f)
+
+9.
 ![Screenshot from 2023-11-28 13-17-54](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/cfa2bd1e-59d9-47c2-8767-8440061e2bc1)
 ![Screenshot from 2023-11-28 13-26-43](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/b24afdd1-89be-4211-9b25-3ad473c49b97)
 ![Screenshot from 2023-11-28 13-28-09](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/82bfcf6d-497e-4214-8ded-dabba45faaf5)

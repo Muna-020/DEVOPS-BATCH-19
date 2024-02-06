@@ -8,6 +8,7 @@
 Jaringan atau Network adalah kumpulan perangkat jaringan (network devices) dan perangkat komputer (end devices) 
 yang saling terhubung melalui perantara media transmisi untuk dapat melakukan sharing data dan sumber daya.
 
+### IP Public dan IP Private
 Alamat IP (Internet Protocol) terbagi menjadi dua jenis utama, yaitu IP Publik dan IP Pribadi.
 
 IP Publik dirancang untuk digunakan secara langsung di internet dan berfungsi sebagai identifikasi unik untuk perangkat yang terhubung ke internet.
@@ -18,7 +19,7 @@ Di sisi lain, IP Pribadi digunakan dalam jaringan lokal (LAN) atau jaringan prib
 Contoh format IP Pribadi untuk IPv4 adalah 192.168.1.1, dan untuk IPv6 adalah fd12:3456:789a:1::1. IP Pribadi memungkinkan komunikasi antara perangkat dalam 
 jaringan lokal tetapi tidak dapat diakses secara langsung dari internet. IP Pribadi biasanya digunakan di rumah atau kantor untuk mengatur perangkat di dalam jaringan lokal.
 
-
+### IP Static dan IP Dynamic
 Alamat IP statis adalah alamat IP yang tetap atau tidak berubah, ditetapkan secara manual pada perangkat jaringan. Dalam konteks ini, setiap perangkat memiliki alamat IP yang ditentukan 
 dan tidak berubah meskipun terjadi restart atau pemutusan koneksi. IP statis sering digunakan untuk perangkat atau server yang perlu memiliki alamat yang konsisten dan dapat diakses
 dengan mudah. Misalnya, server web atau router mungkin diberikan IP statis untuk memastikan ketersediaan dan aksesibilitas yang konsisten. Meskipun memberikan stabilitas, penggunaan IP

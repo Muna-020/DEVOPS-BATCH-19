@@ -16,7 +16,9 @@ ringkasan tahapan pengerjaan untuk Docker:
 - terakhir melakukan pull image untuk menyimpan image Docker seluruh aplikasi ke Docker registry. 
 ```
 
-## Rebuild VM menggunakan OS ubuntu 22 dan menerapkan ssh Password only 
+## Rebuild VM menggunakan OS ubuntu 22 dan menerapkan ssh Password only :
+
++ Pada keenam gambar ini untuk melakukan pembuatan ulang atau rebuild VM server agar VM server dapat digunakan ulang tanpa terdapat  data yang tersisa didalam VM Server tersebut. lalu melakukan konfigurasi file ssh untuk penggunaan autentikasi ssh dengan password `PasswordAuthentication yes` 
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/57e1444a-0e61-4077-9570-293c86c76740)
 
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/3dc12490-51dc-4984-9520-970dff82b151)
@@ -31,9 +33,12 @@ ringkasan tahapan pengerjaan untuk Docker:
 
 ## Bash Script Instalasi Docker
 
++ Pada gambar ini untuk penggunaan sebuah Bash script untuk melakukan perintah instalasi Docker secara automasi tanpa melakukan perintah satu persatu.
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/07e4f8c3-2328-4b58-8f8a-716cf8ca6b97)
 
-## Deploy aplikasi Web Server, Frontend, Backend, serta Database on top `docker compose`
+## Deploy aplikasi Web Server, Frontend, Backend, serta Database on top `docker compose` :
+
++ Pada 
 
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/c82ebf81-6699-434d-9253-b913018910a2)
 
@@ -56,6 +61,8 @@ ringkasan tahapan pengerjaan untuk Docker:
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/4710bda2-8efe-4477-91ec-b3a949ebe6d0)
 
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/a4a1d738-2d06-4d49-b10f-33efd5d5a1ac)
+
+## Pembuatan SSL Cerbot dan Domain dengan Cloudflare untuk kedua Aplikasi on top 'docker compose' :
 
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/817926d8-b6ce-4984-9e64-025ec01505ea)
 

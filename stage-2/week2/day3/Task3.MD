@@ -18,7 +18,8 @@ ringkasan tahapan pengerjaan untuk Docker:
 
 ## Rebuild VM menggunakan OS ubuntu 22 dan menerapkan ssh Password only :
 
-+ Pada keenam gambar ini untuk melakukan pembuatan ulang atau rebuild VM server agar VM server dapat digunakan ulang tanpa terdapat  data yang tersisa didalam VM Server tersebut. lalu melakukan konfigurasi file ssh untuk penggunaan autentikasi ssh dengan password `PasswordAuthentication yes` 
++ Pada keenam gambar ini untuk melakukan pembuatan ulang atau rebuild VM server agar VM server dapat digunakan ulang tanpa terdapat  data yang tersisa didalam VM Server tersebut. lalu melakukan konfigurasi file ssh untuk penggunaan autentikasi ssh dengan password `PasswordAuthentication yes`.
+
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/57e1444a-0e61-4077-9570-293c86c76740)
 
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/3dc12490-51dc-4984-9520-970dff82b151)
@@ -34,6 +35,7 @@ ringkasan tahapan pengerjaan untuk Docker:
 ## Bash Script Instalasi Docker
 
 + Pada gambar ini untuk penggunaan sebuah Bash script untuk melakukan perintah instalasi Docker secara automasi tanpa melakukan perintah satu persatu.
+
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/07e4f8c3-2328-4b58-8f8a-716cf8ca6b97)
 
 ## Deploy aplikasi Web Server, Frontend, Backend, serta Database on top `docker compose` :

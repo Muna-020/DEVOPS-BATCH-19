@@ -38,7 +38,7 @@ ringkasan tahapan pengerjaan untuk Docker:
 
 ## Deploy aplikasi Web Server, Frontend, Backend, serta Database on top `docker compose` :
 
-+ Pada 
++ Pada kesebelas gambar ini untuk pembuatan docker container yang akan menjalankan Aplikasi Frontend dan Backend serta Database mysql yang berjalan pada docker compose dengan terlebih dahulu melakukan clone repository dari github baik frontend dan backend serta konfigurasi frontend untuk api dan backend untuk persiapan migrasi data ke database mysql untuk kedua aplikasi. lalu melakukan pembuatan Dockerized atau persiapan buat image docker dengan nama `Dockerfile` pada frontend dan backend. kemudian membuat file `docker-compose.yaml` yang berisi konfigurasi untuk seluruh aplikasi dan database yang berjalan pada docker compose.
 
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/c82ebf81-6699-434d-9253-b913018910a2)
 
@@ -62,10 +62,12 @@ ringkasan tahapan pengerjaan untuk Docker:
 
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/a4a1d738-2d06-4d49-b10f-33efd5d5a1ac)
 
-## Pembuatan SSL Cerbot dan Domain dengan Cloudflare untuk kedua Aplikasi on top 'docker compose' :
 
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/817926d8-b6ce-4984-9e64-025ec01505ea)
 
+## Pembuatan SSL Cerbot dan Domain dengan Cloudflare untuk kedua Aplikasi on top 'docker compose' :
+
++ Pada kelimabelas gambar ini untuk pembuatan SSL menggunakan cerbot dengan menggunakan domain yang dibuat pada Cloudflare 
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/74352384/99092f44-b5ed-4158-9114-d0565602cccc)
 
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/74352384/fb4492a2-f6e5-4ac3-a921-29281e859b3b)

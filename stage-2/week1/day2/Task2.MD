@@ -22,16 +22,25 @@ ringkasan tahapan pengerjaan untuk Deploy Application Backend:
 ```
 
 #### 1. pembuatan server untuk VM di BiznetGio:
+
++ pada ketiga gambar ini melakukan login ke akun biznetgio untuk melakukan pembuatan VM (Virtual Machine). Dalam pembuatannya terdapat tahapan yaitu pembuatan nama server, memilih produk yang akan digunakan oleh VM yaitu SS 2.2, jenis operasi sistem yaitu ubuntu-20.04, membuat SSH-Key, terakhir pembuatan username dan password untuk VM.
+
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/4255d17f-7895-49f2-9984-45daefb5fdca?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/5f173bc3-f08d-4f0b-b7a0-a6231f16ba4e?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/af813ff7-2bf7-4364-80ad-33e0747c10df?raw=true)
 
 #### 2. implementasi ssh config untuk koneksi antar server local dan vm:
+
++ Pada ketiga gambar ini untuk melakukan konfigurasi penggunaan ssh file config untuk memudahkan akses lebih cepat dan efisien ke setiap server.
+
 ![Screenshot from 2023-12-26 10-49-16](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/ed9e17d7-4f57-454b-ad0b-dd9d238a9f55)
 ![Screenshot from 2023-12-26 10-35-35](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/83b97112-4bd8-47dc-81a6-886f04b7c516)
 ![Screenshot from 2023-12-26 10-35-46](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/766ed942-bf60-4f17-866d-452a87ac604c)
 
 #### 3. penggunaan database mysql pada vm appserver1 :
+
++ Pada kelima gambar ini untuk penggunaan database mysql yang tahapan nya dari konfigurasi keamanan dari mysql, pembuatan user `ROOT` baru untuk mengakses dengan password, pembuatan user `ahmad` dan password untuk digunakan dalam akses ke mysql, lalu mengkonfigurasi file `/etc/mysql/mysql.conf.d/mysql.cnf` untuk merubah konfigurasi pada bagian bind-address dengan menggantinya menjadi `0.0.0.0` agar mengizinkan ip darimana saja yang dapat mengakses mysql.
+
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/6e235856-6f74-45d3-860d-74a465aadf21?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/f4aa20c8-0055-41db-be9f-bad6b15faf55?raw=true)
 ![alt text](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/65209687-c9e3-4656-bce7-a36516205843?raw=true)
@@ -40,6 +49,9 @@ ringkasan tahapan pengerjaan untuk Deploy Application Backend:
 ![Screenshot from 2023-12-21 10-22-37](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/9aff0cfc-9f17-4c86-817e-3c034b7d8959)
 
 #### 4. Deploy aplikasi backend serta migrasi ke database mysql dan konfigurasi api di frontend pada server gatewaynginx:
+
++ Pada kedelapan gambar ini untuk persiapan dalam mendeploy aplikasi backend dan frontend dengan melakukan konfigurasi pada masing-masing aplikasi dari konfigurasi file backend agar dapat migrasi data backend ke database. lalu untuk frontend melakukan konfigurasi pada file untuk memasukkan link api agar data frontend akan terkirim ke backend lalu mengirimkan nya ke database.
+
 ![Screenshot from 2023-12-21 10-41-16](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/f0e2ee4b-04fb-45ed-b834-ddee216db68e)
 ![Screenshot from 2023-12-21 10-46-36](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/62a397ff-96ff-4e41-a0cc-28f9a7f0b88e)
 ![Screenshot from 2023-12-21 10-49-43](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/a6af80c4-9c03-4071-90a8-64b1b4c4742c)
@@ -50,6 +62,9 @@ ringkasan tahapan pengerjaan untuk Deploy Application Backend:
 ![Screenshot from 2023-12-21 19-44-10](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/4fbd6f40-5efb-4f8c-8f8b-1623404ce113)
 
 #### 5. pembuatan domain pada frontend dan backend serta pembuatan certifcate untuk ssl pada domain:
+
++ Pada keduabelas gambar ini untuk pembuatan domain masih menggunakan dns dari cloudflare yang mana membuat dua buah domain dengan nama domain frontend `ahmad.studentdumbways.my.id` dan untuk nama domain backend `api.ahmad.studentdumbways.my.id`. kemudian membuat konfigurasi untuk reverse proxy dengan menggunakan kedua domain yang dibuat dan untuk penggunaan ssl pada domain yang digunakan yaitu cerbot yang merupakan penyedia sertifikat keamanan Web Let's Encrypt dimana Lets Encrypt ini menyediakan SSL secara gratis. Dengan adanya SSL ini kita bisa menggunakan situs kita dengan metode HTTPS atau port 443. selanjutnya setelah ssl berhasil dilakukan dan reverse proxy sudah berhasil berjalan lalu melakukan akses dengan domain yang dibuat di web browser dan mencoba melakukan register akun yang ketika register berhasil data tersebut akan terkirim ke database mysql.
+
 ![Screenshot from 2023-12-21 19-13-41](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/94c900f9-4b55-464f-b2c8-d9e55c2c3168)
 ![Screenshot from 2023-12-21 19-15-19](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/41577d88-9d80-4d17-9a2e-6d6deb06f4b9)
 ![Screenshot from 2023-12-21 19-20-31](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/7e8b0ba4-17d5-45f8-ab56-48e3177d579e)

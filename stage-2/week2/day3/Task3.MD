@@ -67,7 +67,7 @@ ringkasan tahapan pengerjaan untuk Docker:
 
 ## Pembuatan SSL Cerbot dan Domain dengan Cloudflare untuk kedua Aplikasi on top 'docker compose' :
 
-+ Pada kelimabelas gambar ini untuk pembuatan SSL menggunakan cerbot dengan menggunakan domain yang dibuat pada Cloudflare 
++ Pada kelimabelas gambar ini untuk pembuatan SSL menggunakan cerbot dengan menggunakan domain yang dibuat pada Cloudflare lalu setelah mendapatkan sertifikat dari cerbot menambahkan pada konfigurasi docker compose untuk mengkaitkan volume penyimpanan dari cerbot yang ada di vm server ke dalam docker container nginx yang akan berjalan sebagai reverse proxy agar bisa menggunakan sertifikat pada aplikasi. setelah itu menjalankan seluruh service dari docker container yang dibuat lalu mengakses di web browser untuk aplikasi frontend dan backend. terakhir mencoba melakukan register yang saat register sukses maka data akan terkirim ke database mysql 
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/74352384/99092f44-b5ed-4158-9114-d0565602cccc)
 
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/74352384/fb4492a2-f6e5-4ac3-a921-29281e859b3b)

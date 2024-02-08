@@ -30,7 +30,7 @@ ringkasan tahapan pengerjaan untuk Gitlab CI:
 
 # Pembuatan Repository untuk menyimpan data Aplikasi Backend dan Frontend di gitlab 
 
-+ Pada kedepalan gambar ini untuk membuat sebuah repository  dari seluruh aplikasi yang akan digunakan dalam CICD.
++ Pada kedelapan gambar ini untuk membuat sebuah repository  dari seluruh aplikasi yang akan digunakan dalam CICD.
 
 ![image](https://github.com/irwanpanai/devops19-dumbways-irwanpanai/assets/89429810/0c1f5089-54ea-4015-b4bb-9191f032871e)
 

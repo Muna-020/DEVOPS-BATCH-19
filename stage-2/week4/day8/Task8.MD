@@ -14,6 +14,8 @@ Tahap ringkas dalam pengunaan k3s:
 ```
 #### Installation ingress nginx
 
++ pada script ini untuk melakukan pembuatan namespace yang akan menyimpan ingress nginx dan instalasi sebuah ingress atau bisa juga diartikan juga reverse-proxy dengan nginx dalam bahasa kubernetes. kemudian setelah install ingress akan disimpan dalam sebuah namespace agar mengatur sumber daya Kubernetes menjadi lingkungan yang terisolasi secara logis di dalam cluster. 
+
 ```shell
 /var/lib/rancher/k3s/server/manifests# ls
 ccm.yaml  coredns.yaml  local-storage.yaml  metrics-server  nginx-ingress.yaml  rolebindings.yaml  runtimes.yaml
@@ -51,6 +53,10 @@ nginx   k8s.io/ingress-nginx   <none>       19h
 
 ```
 #### Deploy nginx app with used ingress nginx
+
++ Pada script ini untuk membuat sebuah aplikasi web nginx yang menggunakan objek deployment `nginx-app` untuk mengelola replika pod yang berisi server web nginx dengan menggunakan label `app: nginx`. lalu untuk objek service untuk menemukan pod dengan label `app: nginx` agar dapat diekspos ke port 80. kemudian menggunaka objek ingress nginx untuk menjalankan server web nginx di port 443 dengan menghubungkan service yang dibuat.
+
+
 ```yaml
 # nginx.yaml
 apiVersion: apps/v1
@@ -133,6 +139,9 @@ replicaset.apps/nginx-app-64dd5dc9db   1         1         1       7h32m
 ![Screenshot from 2024-01-18 22-50-51](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/0b9d95e6-30b2-4e23-b2be-8d7b57ee83f0)
 
 #### Make PVC with default local path
+
++ Pada script ini untuk membuat sebuah PVC `Persistent Volume Claim `dengan nama local-path-pvc di dalam Namespace devops, meminta 2 gigabyte penyimpanan persisten menggunakan kelas penyimpanan local-path, dan mengizinkan akses baca/tulis ke volume tersebut oleh satu node dalam satu 
+
 ```yaml
  # pvc.yaml
 apiVersion: v1
@@ -150,6 +159,8 @@ spec:
 
 ```
 #### Script for bounding PVC
+
++ Pada script ini untuk membuat sebuah Pod dengan nama test-volume di dalam Namespace devops, yang menggunakan PVC local-path-pvc sebagai sumber penyimpanan persisten. Volume yang di-mount dari PVC akan tersedia di dalam container di path /data, sehingga memungkinkan container untuk menyimpan data secara persisten di dalam volume tersebut.
 
 ```yaml
 # pod.yaml
@@ -190,6 +201,9 @@ pod/test-volume                  1/1     Running   0          5h54m
 ```
 
 ####  Deploy mongodb app use stateful.set and PVC
+
++ Pada script ini untuk membuat sebuah StatefulSet untuk mengelola basis data MongoDB, dengan satu pod, menggunakan Secret untuk konfigurasi database, dan menyimpan data persisten menggunakan PersistentVolumeClaim (local-path-pvc).
+
 ```yaml
 # mongodb.yaml
 apiVersion: v1

@@ -12,6 +12,8 @@ Ringkasan tahapan pengerjaan untuk Ansible dan Ansible-Playbook:
 
 #### 1. Membuat User baru untuk server gateway dan app-server
 
++ Pada script ini untuk melakukan pembuatan sebuah user baru pada kedua server lalu melakukan konfigurasi pada file ssh untuk merubah autentikasi penggunaan ssh dengan password only kemudian melakukan restart ssh agar autentikasi dapat diaplikasikan.
+
 ```yaml
 - hosts: biznet
   become: yes
@@ -43,6 +45,9 @@ Ringkasan tahapan pengerjaan untuk Ansible dan Ansible-Playbook:
 ```
 
 #### 2. Melakukan instalasi docker untuk kedua server
+
++ pada script ini untuk melakukan instalasi docker pada seluruh server yang didalam grup host yang tahapan nya dari melakukan update dan install dependensi terlebih dahulu, lalu melakukan penambahan sebuah key GPG untuk docker dan repository docker pada kedua server, setelah itu melakukan instalasi docker kemudian menambahkan user ke dalam group docker agar dalam menjalankan docker tanpa menggunakan sudo.
+
 ```yaml
 - name: Install Docker
   hosts: biznet
@@ -93,6 +98,9 @@ Ringkasan tahapan pengerjaan untuk Ansible dan Ansible-Playbook:
 ```
 
 #### 3. melakukan generate SSL untuk kedua server menggunakan Certbot Let's Encrypt
+
++ pada script ini untuk melakukan generate SSL menggunakan cerbot pada kedua server agar dapat digunakan pada domain yang dibuat dari dns cloudflare
+
 ```yaml
 ---
 - name: Generate Certbot for SSL
@@ -140,6 +148,9 @@ dns_cloudflare_email= "ahmad.munazar18@gmail.com"
 dns_cloudflare_api_key= "59c9d37614ceb06075f20e1cf30877d39a2dc"
 ```
 #### 4. membuat konfigurasi reverse proxy untuk persiapan container monitoring di server gateway
+
++ pada script ini untuk melakukan pembuatan sebuah file template j2 untuk reverse proxy yang akan dibuatkan pada server gateway yang mana reverse proxy ini untuk deploy monitoring grafana, node-exporter, dan prometheus.
+
 ```j2
 server {
 	listen 443 ssl;
@@ -214,6 +225,9 @@ server {
 ```
 
 ####  5. melakukan setup pembuatan container untuk monitoring server di gateway 
+
++ pada script ini untuk pembuatan sebuah container sebagai monitoring server menggunakan docker compose dengan membuat file template yang akan diisi konfigurasi docker container agar menjalankan grafana, prometheus, dan node-exporter pada server gateway. setelah menjalankan script maka file template yaitu j2 `jinja` akan memindahkan seluruh isi file template tersebut ke file docker-compose.yaml yang dibuat pada script. 
+
 ```j2
 version: '3.8'
 
@@ -317,7 +331,10 @@ networks:
         chdir: /home/ahmad
 ```
 
-#### 6. melakukan persiapan untuk aplikasi froontend di server app-server
+#### 6. melakukan persiapan untuk aplikasi frontend di server app-server
+
++ pada script ini untuk pembuatan sebuah file docker dalam membuat image docker menggunakan file template j2 lalu melakukan clone repository untuk aplikasi frontend pada server appserver. 
+
 ```j2
 FROM node:10.23.0-alpine
 
@@ -355,15 +372,12 @@ CMD ["npm", "start"]
         src: ./credential/Dockerfile-fe.j2
         dest: /home/ahmad/dumbflix-frontend/Dockerfile     
 
-    - name: Setup Config frontend
-      lineinfile:
-        path: /home/ahmad/dumbflix-frontend/src/config/api.js
-        regexp: "baseURL: 'http://localhost:5000/api/v1'"
-        line: "baseURL: 'https://api-moonflo.studentdumbways.my.id/api/v1'"
-        backup: yes
 ```
 
 #### 7. membuat konfigurasi reverse proxy untuk persiapan container aplikasi frontend di server app-server
+
++ Pada script ini untuk melakukan pembuatan sebuah file template j2 untuk reverse proxy yang akan dibuatkan pada server gateway yang mana reverse proxy ini untuk deploy aplikasi frontend yang akan diakses pada web browser dengan domain yang dibuat dari cloudflare.
+
 ```j2
 server {
 	listen 80;

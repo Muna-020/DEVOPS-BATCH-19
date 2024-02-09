@@ -5,7 +5,7 @@
 + Setelah itu, membuat sebuah script  agar melakukan CICD dari tahapan melakukan pull image di kedua branch yaitu “staging” dan “production pada kedua aplikasi, melakukan build image, melakukan test aplikasi, lalu deploy aplikasi dan melakukan push image ke docker hub 
 Berikut gambaran tahap pengerjaan CICD:
 
-![cicdstage](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/1f006437-ec60-4af3-b1ed-a21f0b35e542
+![cicdstage](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/1f006437-ec60-4af3-b1ed-a21f0b35e542)
 
 ![cicdproduct](https://github.com/Muna-020/DEVOPS-BATCH-19/assets/74352384/824bf07b-51f6-4492-891a-21fc57d7eb2c)
 

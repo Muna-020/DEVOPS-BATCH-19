@@ -1,3 +1,5 @@
+ ## 2. Repository
+
 + Setelah melakukan clone repository dengan automation dari ansible, dilanjutkan dengan mengakses tiap direktori backend dan frontend dumbmerch untuk melakukan konfigurasi file .env lalu membuat repository baru di akun github untuk frontend dan backend. Kemudian membuat sebuah branch baru dengan nama “staging” dan “production” (untuk mendukung pembuatan cicd)
 + setelah melakukan tahap diatas, kemudian melakukan push repository frontend dan backend dari app-server ke repository akun github.
 + Berikut gambaran tahap pengerjaan Repository:

@@ -65,7 +65,7 @@
 - pembuatan database pada mongodb serta mengisi dummy data di dalamnya 
 
 ## [WEEK 5 FINAL-TASK](https://github.com/Muna-020/DEVOPS-BATCH-19/tree/master/stage-2/week5/final-task)
-- Melakukan Persiapan untuk Deploy aplikasi pada seluruh server dengan penggunaan ansible {[Provisioning](https://github.com/Muna-020/DEVOPS-BATCH-19/blob/master/stage-2/week5/final-task/1.Provisioning.MD)}
+- Melakukan Persiapan untuk Deploy aplikasi pada seluruh server dengan penggunaan ansible {[Provisioning](https://github.com/Muna-020/DEVOPS-BATCH-19/blob/master/stage-2/week5/final-task/1.%20Provisioning.MD)}
 - Membuat repository baru di akun github untuk frontend dan backend yang sudah diclone dengan branch baru yaitu “staging” dan “production” (untuk mendukung pembuatan cicd) {[Repository](https://github.com/Muna-020/DEVOPS-BATCH-19/blob/master/stage-2/week5/final-task/2.Repository.MD)}
 - Melakukan konfigurasi pada penggunaan firewall di kedua server untuk mengizinkan port-port yang dapat dipakai dalam mengakses suatu aplikasi maupun server {[Server Management](https://github.com/Muna-020/DEVOPS-BATCH-19/blob/master/stage-2/week5/final-task/3.Server-Management.MD)}
 - Melakukan persiapan dalam mendeploy aplikasi di masing-masing direktori frontend dan backend, terlebih dahulu membuat Dockerfile untuk Dockerized dalam membuat image aplikasi frontend dan backend. {[Deployment](https://github.com/Muna-020/DEVOPS-BATCH-19/blob/master/stage-2/week5/final-task/4.Deployment.MD)}

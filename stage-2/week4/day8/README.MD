@@ -1,6 +1,7 @@
 # Terraform
 ```
-alat Infrastruktur sebagai Kode (IaC) yang digunakan developer untuk secara otomatis membuat, menyediakan, dan mengelola sumber daya IT cloud.Terraform dapat mengelola komponen tingkat rendah seperti sumber daya komputasi, penyimpanan, dan jaringan, serta komponen tingkat tinggi seperti entri DNS dan fitur SaaS.
+Terraform alat Infrastruktur sebagai Kode (IaC) yang digunakan developer untuk secara otomatis membuat, menyediakan, dan mengelola sumber daya IT cloud.
+Terraform dapat mengelola komponen tingkat rendah seperti sumber daya komputasi, penyimpanan, dan jaringan, serta komponen tingkat tinggi seperti entri DNS dan fitur SaaS.
 
 Tahap ringkas dalam pengunaan k3s:
 1. install k3s untuk membuat cluster dengan 2 node sebagai master dan node-1

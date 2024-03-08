@@ -44,19 +44,27 @@
 - terakhir, ketika CI/CD berhasil dilakukan akan terlihat pada notifikasi discord CI/CD berhasil
 
 ## [WEEK 4](https://github.com/Muna-020/DEVOPS-BATCH-19/tree/master/stage-2/week4)
-### [1. Monitoring](https://github.com/Muna-020/DEVOPS-BATCH-19/blob/master/stage-2/week4/day6/Task6.MD)
+### [1. Monitoring](https://github.com/Muna-020/DEVOPS-BATCH-19/blob/master/stage-2/week4/day6)
 - setup Container untuk membuat service Node Exporter, Prometheus, dan Grafana dan dijalankan pada setiap server yang ingin dimonitor.
 - menjaalankan Prometheus untuk menyaring metrik dari Node Exporter dan menyimpannya dalam penyimpanan time series internal.
 - Pembuatan Dashboard dengan menggunakan Grafana untuk memonitoring di seluruh server baik dari CPU, RAM, dan Penggunaan Disk
 - konfigurasi pembuatan alerting notifikasi pada seluruh server apabila terdapat masalah.
 - terakhir, melihat hasil notifikasi alert yang terkirim di discord.
 
-### [2. Ansible & Ansible-playbook](https://github.com/Muna-020/DEVOPS-BATCH-19/blob/master/stage-2/week4/day7/Task7.MD)
+### [2. Ansible & Ansible-playbook](https://github.com/Muna-020/DEVOPS-BATCH-19/blob/master/stage-2/week4/day7)
 - menginstall docker serta menyiapkan aplikasi frontend
 - menyiapkan VM untuk dipergunakan dalam melakukan ansible
 - membuat seluruh script yang ingin kita gunakan dalam ansible
 
-### [3. Kubernetes k3s](https://github.com/Muna-020/DEVOPS-BATCH-19/blob/master/stage-2/week4/day8/Task8.MD)
+### [3. Terraform](https://github.com/Muna-020/DEVOPS-BATCH-19/tree/master/stage-2/week4/day8)
+- melakukan persiapan akun pada AWS Cloud dengan metode free claim
+- menginstall Terraform pada server lokal 
+- membuat sebuah direktori dan file denagan ekstensi `.tf` untuk persiapan terraform lalu menginisiasi dengan command `terraform init`
+- membuat konfigurasi pada file `.tf` untuk meneentukan sumber daya infrastruktur yang ingin Anda kelola, seperti instance server, database, jaringan, dan lainnya.
+- melakukan perencanaan dengan `terraform plan` untuk mengetahui konfigurasi sudah siap lalu melakukan running terraform dengan `terraform apply`
+- setelah melakukan apply dapat dilihat pada AWS Cloud Instance bahwa server telah berhasil dibuat
+
+### [4. Kubernetes k3s](https://github.com/Muna-020/DEVOPS-BATCH-19/blob/master/stage-2/week4/day9)
 - install k3s untuk membuat cluster dengan 2 node sebagai master dan node-1
 - instalasi ingress untuk nginx 
 - deploy aplikasi nginx dengan menggunakan ingress untuk dijalankan pada web browser
